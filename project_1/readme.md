@@ -11,6 +11,15 @@ might work to increase the participation rate in a state of your choice.
 
 ## Executive Summary
 
+### Contents:
+
+- [2017 Data Import & Cleaning](#Data-Import-and-Cleaning)
+- [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Data Visualization](#Visualize-the-data)
+- [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
+- [Outside Research](#Outside-Research)
+- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
 ## Data Dictionary
 
