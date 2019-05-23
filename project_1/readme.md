@@ -1,7 +1,6 @@
 # Project 1: SAT & ACT Analysis
 Syamil M.
 
-Presentation deck available [here](index.html)
 
 ## Problem Statement
 
