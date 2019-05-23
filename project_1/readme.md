@@ -1,15 +1,17 @@
 # Project 1: SAT & ACT Analysis
+Syamil M.
 
 ## Problem Statement
 
-The new format for the SAT was released in March 2016. As an employee of the College Board 
-the organization that administers the SAT - you are a part of a team that tracks statewide
-participation and recommends where money is best spent to improve SAT participation rates.
-Your presentation and report should be geared toward non-technical executives with the College Board 
-and you will use the provided data and outside research to make recommendations about how the College Board 
-might work to increase the participation rate in a state of your choice.
+In 2016, the College Board released a new SAT format to reflect changing trends in college education and to better prepare students for college [<sup>1</sup>](#fn1). While test preferences differ from state to state, SAT participation rates in 2018 saw a 25% increase from 2017 with 2018 having the largest number of SAT test takers since the inception of the SAT [<sup>2</sup>](#fn2). 
+
+At the same time, the colleges throughout America are dropping standardised tests such as the ACT and SAT in favour of more streamlined admissions assessment policies [<sup>3<sup>](#fn4). Clearly, this poses a challenge for the future of standardised testing in which the SAT has an intrinsic stake. 
+
 
 ## Executive Summary
+
+In light of this challenge, aggregated data from the 2017 and 2018 cohort for the SAT and ACT assessments across the 51 United States Districts have been used in this report to better understand key trends in participation rates as well as provide new ways to look into further improving SAT participation rates. From the analysis, lowering barriers towards participation via SAT School Days on top of enabling easy access to fee waivers had a clear impact in a number of states towards improving SAT participation. In some cases, we see a ten-fold increase in SAT participation for one particular state, Illinois, that made the SAT its state-wide college entrance exam.
+
 
 ### Contents:
 
@@ -20,10 +22,12 @@ might work to increase the participation rate in a state of your choice.
 - [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
 - [Outside Research](#Outside-Research)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+- [References](#References)
+
 
 ## Data Dictionary
 
-#### SAT 2017 data dictionary
+#### SAT/ACT 2017 data dictionary
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
@@ -37,4 +41,8 @@ might work to increase the participation rate in a state of your choice.
 |**Reading_act2017**|*float*|ACT 2017|Score for Reading Component (Scaled between 1 and 36)|
 |**Science_act2017**|*float*|ACT 2017|Score for Science Component (Scaled between 1 and 36)|
 |**Composite_act2017**|*float*|ACT 2017|Average Score of English/Math/Reading/Science Components (Scaled between 1 and 36)|
+
+
+## References
+
 
