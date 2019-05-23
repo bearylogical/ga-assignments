@@ -1,5 +1,5 @@
 # Project 1: SAT & ACT Analysis
-Syamil M.
+_Syamil M._
 
 
 ## Problem Statement
