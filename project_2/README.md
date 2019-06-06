@@ -31,7 +31,7 @@ Original Data Dictionary [here](http://jse.amstat.org/v19n3/decock/DataDocumenta
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|**house_score**|*float*|modified_train|Name of US State| 
+|**house_score**|*float*|modified_train/transformed_train|Name of US State| 
 |**Participation_satYYYY / Participation_actYYYY**|*integer*|SAT/ACT 2017|Participation rate of students in percentages| 
 |**Evidence-Based_Reading_and_Writing_satY**|*integer*|SAT 2017|Score for Evidenced Based Reading and Writing Component of SAT (maximum is 800)| 
 |**Math_satYYYY**|*integer*|SAT 2017|Score for Math Component of SAT (maximum is 800)| 
