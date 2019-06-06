@@ -1,0 +1,9 @@
+,feature,coefficient
+0,Total Bsmt SF,14275.07007118055
+1,Gr Liv Area,30774.32426653096
+2,age_since_built,-19829.946815319527
+3,house_exter_score,27109.62058867205
+4,Land Contour_HLS,56746.56773649036
+5,Land Contour_Low,40360.62939767549
+6,Land Contour_Lvl,17598.603248147163
+7,y_intercept,161623.85238801516
