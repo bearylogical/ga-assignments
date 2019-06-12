@@ -1,0 +1,638 @@
+all_awardings,approved_at_utc,approved_by,archived,author,author_flair_background_color,author_flair_css_class,author_flair_richtext,author_flair_template_id,author_flair_text,author_flair_text_color,author_flair_type,author_fullname,author_patreon_flair,banned_at_utc,banned_by,can_gild,can_mod_post,category,clicked,content_categories,contest_mode,created,created_utc,crosspost_parent,crosspost_parent_list,distinguished,domain,downs,edited,gilded,gildings,hidden,hide_score,id,is_crosspostable,is_meta,is_original_content,is_reddit_media_domain,is_robot_indexable,is_self,is_video,likes,link_flair_background_color,link_flair_css_class,link_flair_richtext,link_flair_template_id,link_flair_text,link_flair_text_color,link_flair_type,locked,media,media_embed,media_only,mod_note,mod_reason_by,mod_reason_title,mod_reports,name,no_follow,num_comments,num_crossposts,num_reports,over_18,parent_whitelist_status,permalink,pinned,post_hint,preview,pwls,quarantine,removal_reason,report_reasons,saved,score,secure_media,secure_media_embed,selftext,selftext_html,send_replies,spoiler,stickied,subreddit,subreddit_id,subreddit_name_prefixed,subreddit_subscribers,subreddit_type,suggested_sort,thumbnail,thumbnail_height,thumbnail_width,title,total_awards_received,ups,url,user_reports,view_count,visited,whitelist_status,wls
+[],,,False,MFA_Nay,,,[],,Be Excellent to Each Other,dark,text,t2_rmmen,False,,,False,False,,False,,False,1559951184.0,1559922384.0,,,,self.malefashionadvice,0,1559993167.0,0,{},False,False,bxw54g,False,False,False,False,True,True,False,,#01c7f9,meta,[],87f4874e-b172-11e7-bffd-0e1c3d37f7f6,Meta,light,text,False,,{},False,,,,[],t3_bxw54g,False,38,0,,False,all_ads,/r/malefashionadvice/comments/bxw54g/subreddit_update_new_css_theme_and_wiki_changes/,False,self,"{'images': [{'source': {'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?auto=webp&amp;s=a936949c8b1a55d34d09b3cfa05e6067200c5fb0', 'width': 1035, 'height': 608}, 'resolutions': [{'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=51142dccdfcf258457aa71700f897907385219d8', 'width': 108, 'height': 63}, {'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=91ff7e8653e647fdf1221bfb9982cc1a5e8ef6db', 'width': 216, 'height': 126}, {'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=1bfa9fab19d62256d0493bae452c878c4c045e21', 'width': 320, 'height': 187}, {'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=304e87b66639a82ed66edbb9a405c3d6d41a1eb4', 'width': 640, 'height': 375}, {'url': 'https://external-preview.redd.it/8OLUKOfiP8lujWMbI-7vs9LI7OBnj5ixzPvUWDnoEH0.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=6cc6447afdb1c47f859e479de16cce18d12fba09', 'width': 960, 'height': 563}], 'variants': {}, 'id': 'fGETOIbYrnoIbFmo-T9YbEk2T7TbYMPPTjohY6ZfgmY'}], 'enabled': False}",6,False,,,False,22,,{},"Hi all, Nay here.
+
+It has been around 7 months since we [updated the theme on the redesign/new.reddit](https://www.reddit.com/r/malefashionadvice/comments/9oe9wh/feedback_on_the_redesign_style_changes_to_the/) and now we finally got round to updating the CSS theme on normal/old.reddit.
+
+If you're on the desktop redesign you can view the theme through this link here: https://old.reddit.com/r/malefashionadvice/
+
+###New subreddit CSS theme
+
+Welcome to the new /r/malefashionadvice theme. 
+
+It is a modified version of /r/Naut. 
+
+It keeps the ethos of the old design of being minimal and hints of blue. We opted for Naut because it is one of the most popular and customizable themes used on reddit. 
+
+According to our traffic stats around 9-11k people (well unique IPs technically) browse MFA on desktop on old.reddit. So this is for you guys mainly.
+
+Improvements and features include:
+
+* New(ish) banner
+* New looking sidebar 
+* More prominent Wiki tab
+* Reddit Enhancement Suite compatible  
+* Larger collapsable comment element: [see here](https://i.imgur.com/bKeY6Ub.png)
+* New lick of paint all round
+
+While we're here I'd like to give a warm thank you to /u/zmodem for being our main CSS helper and tweaker. Much banter was had with my poorly drawn MS Paint mockups and our (mis)communications. But we got there in the end.
+
+###Feedback
+
+We've been building, testing, and bug squashing for around a month or more in our internal testing sub. Hopefully it's smooth sailing, but if you find any bugs please comment below or send us a modmail and we'll get it fixed.
+
+Plus if you have any general feedback please feel free to comment below. We'd love to hear what you have to say.
+
+------
+
+####**Changelog since last time**
+
+General
+
+* Added rule that makes /u/Automoderator PM a user to set post flair if unset on a self or image post
+* Added a new rotating pinned [welcome post](/r/malefashionadvice/comments/bkbhza/welcome_to_rmalefashionadvice_please_click_for/) which should be more useful for mobile users
+
+Wiki
+
+* Added the Getting Started: Basic Advice sidebar guides to the main Guide wiki page. A surprising oversight.
+* Updated [Inspiration Albums](/r/malefashionadvice/wiki/inspirationalbums) section
+* Updated [Your Favorite ___ for $___ Megathreads](/r/malefashionadvice/wiki/itemguides#wiki_item_suggestions_at_each_price_point) section
+* Added a new section for [Brand Mega Reviews](/r/malefashionadvice/wiki/reviews#wiki_brand_megareview) 
+* Added a [Designer/Brand spotlight](/r/malefashionadvice/wiki/reviews#wiki_brand_and_designer_spotlights) section in the Review section
+* Updated the [Copypasta section.](/r/malefashionadvice/wiki/copypasta)
+
+
+Old.reddit sidebar
+
+* Removed the redundant Introduction button widget which was basically a condensed version of the sidebar in wiki page form
+* Removed outdated links under Additional Resources in the sidebar
+* Added a Comment of the Whatever, Subscriber Survey, and Milestone links under Community in the sidebar
+* [Slimmed down the markup text](https://redd.it/112g9x) so we had more leeway with character limits.
+
+New.reddit theme and sidebar
+
+* Added a new banner with a grey background - should be easier on the eyes for Night Mode
+* Added some emojis to the menu bar to grab visual attention more
+* Added a new Wiki menu tab which reddit finally added
+* Removed the outdated link under Additional Resources (Crowdsourcing megathread and MFA Archive)
+* Removed the Introduction button widget which was basically a condensed version of the sidebar
+* Added more inspiration album links to the Inspiration Menu tab (Top of the WAYWT and Color inspiration)
+* Added more guides links to the Guide Menu tab (Shopping Guide, City Guides, Grooming, Clothing Care)
+* Added a Comment of the Whatever, Subscriber Survey, and Milestone links under Community in the sidebar
+
+**In closing**
+
+So yeah. If you've made it this far thanks for reading. 
+
+Any feedback please feel free to comment below.
+
+**Known bugs:** 
+
+* Small gap between submit buttons and advert element below
+* Not all post flair is appearing like it should
+* Shift collapse comment CSS element to the far left of the comment replies
+* Move search bar on the search page below the banner
+* ~~Small gap between the background image in the comment box and the actual comment box~~ - Fixed","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Hi all, Nay here.&lt;/p&gt;
+
+&lt;p&gt;It has been around 7 months since we &lt;a href=""https://www.reddit.com/r/malefashionadvice/comments/9oe9wh/feedback_on_the_redesign_style_changes_to_the/""&gt;updated the theme on the redesign/new.reddit&lt;/a&gt; and now we finally got round to updating the CSS theme on normal/old.reddit.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;re on the desktop redesign you can view the theme through this link here: &lt;a href=""https://old.reddit.com/r/malefashionadvice/""&gt;https://old.reddit.com/r/malefashionadvice/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;New subreddit CSS theme&lt;/h3&gt;
+
+&lt;p&gt;Welcome to the new &lt;a href=""/r/malefashionadvice""&gt;/r/malefashionadvice&lt;/a&gt; theme. &lt;/p&gt;
+
+&lt;p&gt;It is a modified version of &lt;a href=""/r/Naut""&gt;/r/Naut&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;It keeps the ethos of the old design of being minimal and hints of blue. We opted for Naut because it is one of the most popular and customizable themes used on reddit. &lt;/p&gt;
+
+&lt;p&gt;According to our traffic stats around 9-11k people (well unique IPs technically) browse MFA on desktop on old.reddit. So this is for you guys mainly.&lt;/p&gt;
+
+&lt;p&gt;Improvements and features include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New(ish) banner&lt;/li&gt;
+&lt;li&gt;New looking sidebar &lt;/li&gt;
+&lt;li&gt;More prominent Wiki tab&lt;/li&gt;
+&lt;li&gt;Reddit Enhancement Suite compatible&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;Larger collapsable comment element: &lt;a href=""https://i.imgur.com/bKeY6Ub.png""&gt;see here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New lick of paint all round&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While we&amp;#39;re here I&amp;#39;d like to give a warm thank you to &lt;a href=""/u/zmodem""&gt;/u/zmodem&lt;/a&gt; for being our main CSS helper and tweaker. Much banter was had with my poorly drawn MS Paint mockups and our (mis)communications. But we got there in the end.&lt;/p&gt;
+
+&lt;h3&gt;Feedback&lt;/h3&gt;
+
+&lt;p&gt;We&amp;#39;ve been building, testing, and bug squashing for around a month or more in our internal testing sub. Hopefully it&amp;#39;s smooth sailing, but if you find any bugs please comment below or send us a modmail and we&amp;#39;ll get it fixed.&lt;/p&gt;
+
+&lt;p&gt;Plus if you have any general feedback please feel free to comment below. We&amp;#39;d love to hear what you have to say.&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;h4&gt;&lt;strong&gt;Changelog since last time&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;General&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added rule that makes &lt;a href=""/u/Automoderator""&gt;/u/Automoderator&lt;/a&gt; PM a user to set post flair if unset on a self or image post&lt;/li&gt;
+&lt;li&gt;Added a new rotating pinned &lt;a href=""/r/malefashionadvice/comments/bkbhza/welcome_to_rmalefashionadvice_please_click_for/""&gt;welcome post&lt;/a&gt; which should be more useful for mobile users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wiki&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added the Getting Started: Basic Advice sidebar guides to the main Guide wiki page. A surprising oversight.&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=""/r/malefashionadvice/wiki/inspirationalbums""&gt;Inspiration Albums&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=""/r/malefashionadvice/wiki/itemguides#wiki_item_suggestions_at_each_price_point""&gt;Your Favorite ___ for $___ Megathreads&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Added a new section for &lt;a href=""/r/malefashionadvice/wiki/reviews#wiki_brand_megareview""&gt;Brand Mega Reviews&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Added a &lt;a href=""/r/malefashionadvice/wiki/reviews#wiki_brand_and_designer_spotlights""&gt;Designer/Brand spotlight&lt;/a&gt; section in the Review section&lt;/li&gt;
+&lt;li&gt;Updated the &lt;a href=""/r/malefashionadvice/wiki/copypasta""&gt;Copypasta section.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Old.reddit sidebar&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed the redundant Introduction button widget which was basically a condensed version of the sidebar in wiki page form&lt;/li&gt;
+&lt;li&gt;Removed outdated links under Additional Resources in the sidebar&lt;/li&gt;
+&lt;li&gt;Added a Comment of the Whatever, Subscriber Survey, and Milestone links under Community in the sidebar&lt;/li&gt;
+&lt;li&gt;&lt;a href=""https://redd.it/112g9x""&gt;Slimmed down the markup text&lt;/a&gt; so we had more leeway with character limits.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;New.reddit theme and sidebar&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added a new banner with a grey background - should be easier on the eyes for Night Mode&lt;/li&gt;
+&lt;li&gt;Added some emojis to the menu bar to grab visual attention more&lt;/li&gt;
+&lt;li&gt;Added a new Wiki menu tab which reddit finally added&lt;/li&gt;
+&lt;li&gt;Removed the outdated link under Additional Resources (Crowdsourcing megathread and MFA Archive)&lt;/li&gt;
+&lt;li&gt;Removed the Introduction button widget which was basically a condensed version of the sidebar&lt;/li&gt;
+&lt;li&gt;Added more inspiration album links to the Inspiration Menu tab (Top of the WAYWT and Color inspiration)&lt;/li&gt;
+&lt;li&gt;Added more guides links to the Guide Menu tab (Shopping Guide, City Guides, Grooming, Clothing Care)&lt;/li&gt;
+&lt;li&gt;Added a Comment of the Whatever, Subscriber Survey, and Milestone links under Community in the sidebar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In closing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So yeah. If you&amp;#39;ve made it this far thanks for reading. &lt;/p&gt;
+
+&lt;p&gt;Any feedback please feel free to comment below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Known bugs:&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Small gap between submit buttons and advert element below&lt;/li&gt;
+&lt;li&gt;Not all post flair is appearing like it should&lt;/li&gt;
+&lt;li&gt;Shift collapse comment CSS element to the far left of the comment replies&lt;/li&gt;
+&lt;li&gt;Move search bar on the search page below the banner&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Small gap between the background image in the comment box and the actual comment box&lt;/del&gt; - Fixed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,True,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Subreddit update: new CSS theme and Wiki changes,0,22,https://www.reddit.com/r/malefashionadvice/comments/bxw54g/subreddit_update_new_css_theme_and_wiki_changes/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560125088.0,1560096288.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,bylqt4,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_bylqt4,True,179,0,,False,all_ads,/r/malefashionadvice/comments/bylqt4/daily_questions_ask_and_answer_here_june_09/,False,,,6,False,,,False,5,,{},"Welcome to the /r/MaleFashionAdvice Daily Questions thread - Our Daily thread to ask about all things related to male fashion. This thread is for style questions that don't warrant their own thread (although we strongly suggest checking the sidebar and [the wiki before](https://www.reddit.com/r/malefashionadvice/wiki/index) posting!). Anyone can post a question and the community as a whole is invited and encouraged to provide an answer.
+
+Also, theres a handy-dandy search bar to your right, and if you didn't know, you can also use Google to search MFA by using the limiter ""site:reddit.com/r/malefashionadvice"" after your search topic. 
+
+Be aware that the more information you add **(BUDGET)**, the more relevant answers you may receive. 
+
+Fit checks and ""How'd I do"" questions are a great use of this thread (although they can also go in the daily Outfit Feedback &amp;amp; Fit Check thread). Other example questions:
+
+* Could someone take the chest measurement for a small J.Crew oxford?
+* Is there a place with full measurements for Naked &amp;amp; Famous jeans?
+* What slim-fitting green cords do you recommend?
+* Where do I find a military surplus peacoat online?
+* If you're asking for suggestions for a specific kind of clothing/accessory, **state what your budget is**.
+* If you're looking for item identification from a video **take a screenshot, do not link the video**. 
+
+**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**
+
+Again, the more information you add **(BUDGET or LOCATION)**, the more relevant answers you will receive.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Welcome to the &lt;a href=""/r/MaleFashionAdvice""&gt;/r/MaleFashionAdvice&lt;/a&gt; Daily Questions thread - Our Daily thread to ask about all things related to male fashion. This thread is for style questions that don&amp;#39;t warrant their own thread (although we strongly suggest checking the sidebar and &lt;a href=""https://www.reddit.com/r/malefashionadvice/wiki/index""&gt;the wiki before&lt;/a&gt; posting!). Anyone can post a question and the community as a whole is invited and encouraged to provide an answer.&lt;/p&gt;
+
+&lt;p&gt;Also, theres a handy-dandy search bar to your right, and if you didn&amp;#39;t know, you can also use Google to search MFA by using the limiter &amp;quot;site:reddit.com&lt;a href=""/r/malefashionadvice""&gt;/r/malefashionadvice&lt;/a&gt;&amp;quot; after your search topic. &lt;/p&gt;
+
+&lt;p&gt;Be aware that the more information you add &lt;strong&gt;(BUDGET)&lt;/strong&gt;, the more relevant answers you may receive. &lt;/p&gt;
+
+&lt;p&gt;Fit checks and &amp;quot;How&amp;#39;d I do&amp;quot; questions are a great use of this thread (although they can also go in the daily Outfit Feedback &amp;amp; Fit Check thread). Other example questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Could someone take the chest measurement for a small J.Crew oxford?&lt;/li&gt;
+&lt;li&gt;Is there a place with full measurements for Naked &amp;amp; Famous jeans?&lt;/li&gt;
+&lt;li&gt;What slim-fitting green cords do you recommend?&lt;/li&gt;
+&lt;li&gt;Where do I find a military surplus peacoat online?&lt;/li&gt;
+&lt;li&gt;If you&amp;#39;re asking for suggestions for a specific kind of clothing/accessory, &lt;strong&gt;state what your budget is&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If you&amp;#39;re looking for item identification from a video &lt;strong&gt;take a screenshot, do not link the video&lt;/strong&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Again, the more information you add &lt;strong&gt;(BUDGET or LOCATION)&lt;/strong&gt;, the more relevant answers you will receive.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,True,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,new,self,,,Daily Questions - ASK AND ANSWER HERE!- June 09,0,5,https://www.reddit.com/r/malefashionadvice/comments/bylqt4/daily_questions_ask_and_answer_here_june_09/,[],,False,all_ads,6
+[],,,False,mrteacher16,,,[],,,,text,t2_m8asch9,False,,,False,False,,False,,False,1560116031.0,1560087231.0,,,,self.malefashionadvice,0,1560090602.0,0,{},False,False,byk902,False,False,False,False,True,True,False,,#990033,review,[],7b191ef4-b172-11e7-b7bc-0ed941b96014,Review,light,text,False,,{},False,,,,[],t3_byk902,False,150,0,,False,all_ads,/r/malefashionadvice/comments/byk902/review_one_year_of_stitch_fix_and_why_im_dropping/,False,,,6,False,,,False,924,,{},"Info:  I'm a 34 year old elementary teacher.  A year ago I was embarrassed at how many times I wore the same Under Armour polos (not that there's anything wrong with that!) and golf pants.  My wife is very fashion forward and always looks good so I decided to try and step up my fashion game.  I literally had no idea where to start or how to start.  I asked a buddy of mine what he used to get new clothes and he mentioned Stitch Fix.  After creating my account, filling out my style profile, and rating some outfits I was ready.
+
+&amp;#x200B;
+
+Pros:  Stitch Fix helped me try out new styles.  A year ago I had no idea that pants could be straight fit, slim, athletic, etc.  I didn't even know slim fit shirts where a thing!  Thanks to their service I found out styles of shirts I liked, fits I liked, prints, materials, etc.  I feel like had I not had a box of clothes every few months with new items to try I definitely wouldn't have been as adventurous with my style.
+
+I also like how generally responsive my stylist has been.  If there's something I need, as long as I leave a comment about it, they really hooked me up.  Through them I purchased my first blazer and it was a huge help with sizing, color, and how to wear it.
+
+&amp;#x200B;
+
+Cons:  PRICE...I know the saying, ""buy nice or buy twice"" but sometimes the cost of the items they'd send me was really outside of my price range.  They also make it tough to buy only the items you like.  If I only like a few items it could bump my overall cost up by $50!
+
+In house brands.  Of course, Stitch Fix is going to offer brands that they are representing, nothing wrong with that, but I felt like as my year went on I was only getting their brands regardless of what I told my stylist.  While this has been an issue it really only happened the last two boxes or so.
+
+&amp;#x200B;
+
+In Summary:  I am dropping Stitch Fix because it has served it's purpose.  I have learned so much about style, clothing, and what I like and don't like in the last year that I look like a different guy.  Stitch Fix and this Sub Reddit have been the two biggest helps in that regard.  I would say if you are like I was and in need of some help styling, then try Stitch Fix.  It can be very helpful in finding what you like and don't like.  However, if you have a good grasp of what you like and what your style is then I would stay away from the service.  It probably is a waste of your time.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Info:  I&amp;#39;m a 34 year old elementary teacher.  A year ago I was embarrassed at how many times I wore the same Under Armour polos (not that there&amp;#39;s anything wrong with that!) and golf pants.  My wife is very fashion forward and always looks good so I decided to try and step up my fashion game.  I literally had no idea where to start or how to start.  I asked a buddy of mine what he used to get new clothes and he mentioned Stitch Fix.  After creating my account, filling out my style profile, and rating some outfits I was ready.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Pros:  Stitch Fix helped me try out new styles.  A year ago I had no idea that pants could be straight fit, slim, athletic, etc.  I didn&amp;#39;t even know slim fit shirts where a thing!  Thanks to their service I found out styles of shirts I liked, fits I liked, prints, materials, etc.  I feel like had I not had a box of clothes every few months with new items to try I definitely wouldn&amp;#39;t have been as adventurous with my style.&lt;/p&gt;
+
+&lt;p&gt;I also like how generally responsive my stylist has been.  If there&amp;#39;s something I need, as long as I leave a comment about it, they really hooked me up.  Through them I purchased my first blazer and it was a huge help with sizing, color, and how to wear it.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Cons:  PRICE...I know the saying, &amp;quot;buy nice or buy twice&amp;quot; but sometimes the cost of the items they&amp;#39;d send me was really outside of my price range.  They also make it tough to buy only the items you like.  If I only like a few items it could bump my overall cost up by $50!&lt;/p&gt;
+
+&lt;p&gt;In house brands.  Of course, Stitch Fix is going to offer brands that they are representing, nothing wrong with that, but I felt like as my year went on I was only getting their brands regardless of what I told my stylist.  While this has been an issue it really only happened the last two boxes or so.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;In Summary:  I am dropping Stitch Fix because it has served it&amp;#39;s purpose.  I have learned so much about style, clothing, and what I like and don&amp;#39;t like in the last year that I look like a different guy.  Stitch Fix and this Sub Reddit have been the two biggest helps in that regard.  I would say if you are like I was and in need of some help styling, then try Stitch Fix.  It can be very helpful in finding what you like and don&amp;#39;t like.  However, if you have a good grasp of what you like and what your style is then I would stay away from the service.  It probably is a waste of your time.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Review: One year of Stitch Fix and why I'm dropping it.,0,924,https://www.reddit.com/r/malefashionadvice/comments/byk902/review_one_year_of_stitch_fix_and_why_im_dropping/,[],,False,all_ads,6
+[],,,False,nygiant3,,,[],,,,text,t2_wv574,False,,,False,False,,False,,False,1560161412.0,1560132612.0,,,,self.malefashionadvice,0,False,0,{},False,False,bys6wh,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_bys6wh,False,9,0,,False,all_ads,/r/malefashionadvice/comments/bys6wh/explain_like_im_five_where_should_my_pantsjeans/,False,,,6,False,,,False,28,,{},"This is the first in a series of questions that I have (frankly) been ashamed to ask my entire life because this, to me, is a question no one should need to ask but should naturally know. 
+
+I am tall (6'8"") and have been above average height since puberty. I am overweight, especially in the belly region. I have been poor, living off hand-me-downs with no say in what size or style I wore. Because of these facts, I've been wearing the waist of my pants/jeans wherever I could get them, typically in the middle of my hip bones, and this in my youth led to a baggy pants look (that I wrongly thought was stylish) and caused the dreaded the overhanging belly I have to this day. Now, I'm finally trying to get my appearance in a better place and not only wear clothes that I actually want to wear but those that properly fit. I am looking for any and all assistance on how pants/jeans should sit, fit, feel, look in the mirror, etc. 
+
+P.S. If at any point there is a detail you want to leave out because it's common sense, or you believe everyone should know it, please don't. I really don't know anything about the right way things should fit or feel. 
+
+TLDR: I'm fat and tall with no idea how jeans should fit, help me.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;This is the first in a series of questions that I have (frankly) been ashamed to ask my entire life because this, to me, is a question no one should need to ask but should naturally know. &lt;/p&gt;
+
+&lt;p&gt;I am tall (6&amp;#39;8&amp;quot;) and have been above average height since puberty. I am overweight, especially in the belly region. I have been poor, living off hand-me-downs with no say in what size or style I wore. Because of these facts, I&amp;#39;ve been wearing the waist of my pants/jeans wherever I could get them, typically in the middle of my hip bones, and this in my youth led to a baggy pants look (that I wrongly thought was stylish) and caused the dreaded the overhanging belly I have to this day. Now, I&amp;#39;m finally trying to get my appearance in a better place and not only wear clothes that I actually want to wear but those that properly fit. I am looking for any and all assistance on how pants/jeans should sit, fit, feel, look in the mirror, etc. &lt;/p&gt;
+
+&lt;p&gt;P.S. If at any point there is a detail you want to leave out because it&amp;#39;s common sense, or you believe everyone should know it, please don&amp;#39;t. I really don&amp;#39;t know anything about the right way things should fit or feel. &lt;/p&gt;
+
+&lt;p&gt;TLDR: I&amp;#39;m fat and tall with no idea how jeans should fit, help me.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Explain Like I'm Five: Where should my pants/jeans sit?,0,28,https://www.reddit.com/r/malefashionadvice/comments/bys6wh/explain_like_im_five_where_should_my_pantsjeans/,[],,False,all_ads,6
+[],,,False,Voyager6-4,,,[],,,,text,t2_3tua0lav,False,,,False,False,,False,,False,1560148435.0,1560119635.0,,,,self.malefashionadvice,0,False,0,{},False,False,byq2pr,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_byq2pr,False,21,0,,False,all_ads,/r/malefashionadvice/comments/byq2pr/debating_price_vs_quality_as_a_student/,False,,,6,False,,,False,15,,{},"Hello MFA, 
+
+This is one of my first posts, so please forgive any errors/omissions I'm making here.
+
+I just graduated high school, and am going to college this fall. Over the past few years, I've taken care of a lot of basic, easy items like tshirts, jeans, etc. Now that I'm older, I'm looking to add some more ""advanced"" items to my wardrobe, and ideally these will also help me out with my height (5'6-5'7) and appear closer to my age.
+
+Having read the wiki/sidebar, I've gained some new understanding, but before I can act on that, I need to know where to shop. On YouTube and other sources, I've seen the theory that long-term/foundational items such as leather jackets, boots, etc., should be bought at a higher quality point with the expectation of long lifetime use.
+
+That makes sense to me, but without quite as much money and more importantly, clothing experience, I wasn't sure if it would be a better idea to purchase a cheaper ""disposable"" item. Over time, I could decide how I feel about different items and whether or not I wish to invest in an upgrade for each piece.
+
+So, in summary: when moving beyond ""basic bastard"" items, is it better to first invest in quality or sample with lower quality pieces?","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Hello MFA, &lt;/p&gt;
+
+&lt;p&gt;This is one of my first posts, so please forgive any errors/omissions I&amp;#39;m making here.&lt;/p&gt;
+
+&lt;p&gt;I just graduated high school, and am going to college this fall. Over the past few years, I&amp;#39;ve taken care of a lot of basic, easy items like tshirts, jeans, etc. Now that I&amp;#39;m older, I&amp;#39;m looking to add some more &amp;quot;advanced&amp;quot; items to my wardrobe, and ideally these will also help me out with my height (5&amp;#39;6-5&amp;#39;7) and appear closer to my age.&lt;/p&gt;
+
+&lt;p&gt;Having read the wiki/sidebar, I&amp;#39;ve gained some new understanding, but before I can act on that, I need to know where to shop. On YouTube and other sources, I&amp;#39;ve seen the theory that long-term/foundational items such as leather jackets, boots, etc., should be bought at a higher quality point with the expectation of long lifetime use.&lt;/p&gt;
+
+&lt;p&gt;That makes sense to me, but without quite as much money and more importantly, clothing experience, I wasn&amp;#39;t sure if it would be a better idea to purchase a cheaper &amp;quot;disposable&amp;quot; item. Over time, I could decide how I feel about different items and whether or not I wish to invest in an upgrade for each piece.&lt;/p&gt;
+
+&lt;p&gt;So, in summary: when moving beyond &amp;quot;basic bastard&amp;quot; items, is it better to first invest in quality or sample with lower quality pieces?&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Debating price vs quality as a student,0,15,https://www.reddit.com/r/malefashionadvice/comments/byq2pr/debating_price_vs_quality_as_a_student/,[],,False,all_ads,6
+[],,,False,Ez2CircumventBans,,,[],,,,text,t2_3tae5368,False,,,False,False,,False,,False,1560087240.0,1560058440.0,,,,fashionsnap.com,0,False,0,{},False,False,byh2zh,False,False,False,False,True,False,False,,#e23838,news,[],a1603c28-b172-11e7-a1fb-0edeea34fcb6,News,light,text,False,,{},False,,,,[],t3_byh2zh,False,39,0,,False,all_ads,/r/malefashionadvice/comments/byh2zh/preview_of_uniqlo_fw_2019/,False,link,"{'images': [{'source': {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?auto=webp&amp;s=f1fe1238c74fc8cc542050ec1433f99548732b68', 'width': 1440, 'height': 1080}, 'resolutions': [{'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=fde805670386a740da8ebd0fc71db5d26fd5804b', 'width': 108, 'height': 81}, {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=74ec01b6bbf3a4bcd61e7ebb342929af7d3c7479', 'width': 216, 'height': 162}, {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=6b2d2abc7bc93c7d88901aaf0fbe3fa1d6e91e9a', 'width': 320, 'height': 240}, {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=996a7abf7aba20e5647fc2a9ac62c6139adf641c', 'width': 640, 'height': 480}, {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=6fd7d6abffbc8694c2f99b5f3f5d44945e338e0a', 'width': 960, 'height': 720}, {'url': 'https://external-preview.redd.it/fWcDmvYyqvX_QbDL323zzAO8RYivIukT0v3mzxsVSns.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=ac74c729b7f4c718d36bbb67cd78ad1114883ee2', 'width': 1080, 'height': 810}], 'variants': {}, 'id': 'bjFQ8K9T5W63N-kNRt3ndgbW9h1Cw_ZJtaksyJSHXuo'}], 'enabled': False}",6,False,,,False,324,,{},,,True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/pl4jFNnsDyiQ_eeG-pcN4JH_mbh3Iv8tiRV0cS7PXxc.jpg,105.0,140.0,Preview of Uniqlo F/W 2019,0,324,https://www.fashionsnap.com/article/2019-06-08/unqlo-19aw/,[],,False,all_ads,6
+[],,,False,BigDaddyKrow,,,[],,,,text,t2_gpqcz,False,,,False,False,,False,,False,1560168326.0,1560139526.0,,,,self.malefashionadvice,0,False,0,{},False,True,byt9bk,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_byt9bk,True,0,0,,False,all_ads,/r/malefashionadvice/comments/byt9bk/i_need_help_for_my_honeymoon_in_greece/,False,,,6,False,,,False,2,,{},"Hello all I've lurked here for awhile, and slowly been upgrading my wardrobe over time. I am recently married and will be honeymooning with my wife in Greece in late August. I'm looking for a little help on how to pull off the smart casual look while in Greece. 
+
+
+To start off I'm from Seattle and I'm a bigger guy, about 6ft 1in, and about 275lb. My usual style is sort of a workwear Americana with fannel, jeans, iron rangers. In summer I'm a shorts and tshirts guy. 
+
+
+So in late August my wife and I will be doing 2 weeks in Santorini, Mykonos, Naxos and Paros. We will be doing some hiking exploring, but mostly just tourist and beach stuff. We aren't going to be packing very heavy so I was wondering if I could get some help with what to wear and what to bring while keeping it sort of minimalist. 
+
+I have some dark jeans, and some chinos that I like. I also have some Prana hiking shorts and regular chino shorts I was thinking of wearing. 
+
+For shirts I'm kinda at a loss all I really have is T-shirts for hot weather. I recently bought a button down short sleeve (flamingo print lol) from Bonobos that my wife loves on me. I was thinking about buying more of these but in other prints that aren't quite so hiwaiian. I thought these shirts would be a good fit for greece because they breath well. If anyone has any advice on brands that are big man friendly and will still make me look sharp, that would be great. Just for reference I am a XXL reg. Fit in the Bonobos button up. I find that I am just a bit to big for a lot of brands, so if any stylish big bois want to name me some brands that would be super.
+
+I'd kinda like a linen button up as well but have no clue where to even start with that. 
+
+
+For shoes I was looking at wearing Killshots and sandals for a lot of the trip, but I'm open to anything.
+
+
+Literally any advise on what to pack or buy would be great, I'm not very good at this and I just want to look pretty for my wife. 
+
+
+Thanks","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Hello all I&amp;#39;ve lurked here for awhile, and slowly been upgrading my wardrobe over time. I am recently married and will be honeymooning with my wife in Greece in late August. I&amp;#39;m looking for a little help on how to pull off the smart casual look while in Greece. &lt;/p&gt;
+
+&lt;p&gt;To start off I&amp;#39;m from Seattle and I&amp;#39;m a bigger guy, about 6ft 1in, and about 275lb. My usual style is sort of a workwear Americana with fannel, jeans, iron rangers. In summer I&amp;#39;m a shorts and tshirts guy. &lt;/p&gt;
+
+&lt;p&gt;So in late August my wife and I will be doing 2 weeks in Santorini, Mykonos, Naxos and Paros. We will be doing some hiking exploring, but mostly just tourist and beach stuff. We aren&amp;#39;t going to be packing very heavy so I was wondering if I could get some help with what to wear and what to bring while keeping it sort of minimalist. &lt;/p&gt;
+
+&lt;p&gt;I have some dark jeans, and some chinos that I like. I also have some Prana hiking shorts and regular chino shorts I was thinking of wearing. &lt;/p&gt;
+
+&lt;p&gt;For shirts I&amp;#39;m kinda at a loss all I really have is T-shirts for hot weather. I recently bought a button down short sleeve (flamingo print lol) from Bonobos that my wife loves on me. I was thinking about buying more of these but in other prints that aren&amp;#39;t quite so hiwaiian. I thought these shirts would be a good fit for greece because they breath well. If anyone has any advice on brands that are big man friendly and will still make me look sharp, that would be great. Just for reference I am a XXL reg. Fit in the Bonobos button up. I find that I am just a bit to big for a lot of brands, so if any stylish big bois want to name me some brands that would be super.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d kinda like a linen button up as well but have no clue where to even start with that. &lt;/p&gt;
+
+&lt;p&gt;For shoes I was looking at wearing Killshots and sandals for a lot of the trip, but I&amp;#39;m open to anything.&lt;/p&gt;
+
+&lt;p&gt;Literally any advise on what to pack or buy would be great, I&amp;#39;m not very good at this and I just want to look pretty for my wife. &lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,I need help for my honeymoon in Greece.,0,2,https://www.reddit.com/r/malefashionadvice/comments/byt9bk/i_need_help_for_my_honeymoon_in_greece/,[],,False,all_ads,6
+[],,,False,Sunder92,,,[],,,,text,t2_hvatr,False,,,False,False,,False,,False,1560084235.0,1560055435.0,,,,self.malefashionadvice,0,False,0,{},False,False,bygphw,False,False,False,False,True,True,False,,#9101f9,discussion ,[],8c5167bc-b172-11e7-9af6-0e809b1465da,Discussion,light,text,False,,{},False,,,,[],t3_bygphw,False,34,0,,False,all_ads,/r/malefashionadvice/comments/bygphw/pick_the_shoes_you_like_to_wear_not_what_others/,False,self,"{'images': [{'source': {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?auto=webp&amp;s=c1d2e022d46009af6baa7c1ea34dfb4581ba188d', 'width': 5184, 'height': 3456}, 'resolutions': [{'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=290d419c6a088a53f4c2e17ea53b2d52fed5a58b', 'width': 108, 'height': 72}, {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ece95474b3d7b8b3afb871184422a4028dc8570b', 'width': 216, 'height': 144}, {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3e5da78d9b32b8e1e6ce2e91a5a3556482f6a8a1', 'width': 320, 'height': 213}, {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=28314069c0f75ba974946e995db0f9864e2f81ad', 'width': 640, 'height': 426}, {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=8f27c0c54cb9c7a965fda2b4c9a36a752a3ac4ea', 'width': 960, 'height': 640}, {'url': 'https://external-preview.redd.it/g7vIxLCruASvYm9bqsvnCNIeFSi8ZaswBxF0UaLWgJ4.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=9c397f7c9fbc4e3568d9e912e9331253b51fd625', 'width': 1080, 'height': 720}], 'variants': {}, 'id': 'HGaf1lzC2KNRf0t2-D7cS-bvfRKrdSUNQXlNm7a4bWg'}], 'enabled': False}",6,False,,,False,61,,{},"I've been a part of the male fashion community now for about 5-6 years now. I haven't been really active in this subreddit for a while now, but I feel like this subreddit might have the most impact on what I have to say and have the best discussion going on the topic.
+
+&amp;#x200B;
+
+What is the topic you may ask? Shoes. More specifically men's leather shoes.
+
+&amp;#x200B;
+
+Since I've started coming here asking for advice, people have always recommended Allen Edmonds (AE) as a good baseline on what good shoes should be; goodyear welted, quality leather, etc. And I have always aspired to owning a pair of AEs. Being a broke college student at the time, it seemed so far away. I was thinking I'd have to be an engineer before I even thought about getting a pair of $400 AEs. A while later, I learned how low in price they could go when on sale. Still, $100+ is still a lot for a pair of shoes. However, through deals, I started to grow my collection. I started with a pair of beautiful \[Andrew Lock monk straps\]([https://imgur.com/a/nJ8DM](https://imgur.com/a/nJ8DM)), then I got a pair of Chippewa boots, then some Timberland bluchers, eventually I got my AEs, then another pair of AEs, and more, some Rider Boots Co derbies, and the list goes on.
+
+&amp;#x200B;
+
+I've recently realized that, though I love the styles, I mainly got a lot of these because people were raving about how good they were. Their nice construction, good leather, etc. All this has been engrained in me. I even went further by using my leathercrafting knowledge to nitpick even more on the leather type and quality. Looking at my collection now, I see that it's a decent size. I have everything I need for most occasions. I've followed what everyone says about what good leather footwear should be, but I've come to realize I don't even wear a fraction of my collection. Why? *Because they're not comfortable!*
+
+&amp;#x200B;
+
+...
+
+&amp;#x200B;
+
+Ok. Maybe it's more like *it's not as comfortable* as some shoes. I've noticed that I don't wear a lot of my shoes because the break in is such a pain (literally). Why waste effort and be miserable when there are actually shoes that come out of the box comfortable? I've noticed for the last year, I've basically been wearing my black Bruno Magli derbies, my Jack Erwin oxfords, and my Clarks chukkas. Based on what this community deems as quality footwear, these are on the lower end of the list (blake stitch and cement construction) and they've lasted me \*years\* without any real signs of wear or failure.
+
+&amp;#x200B;
+
+I like them, they look good, they're comfortable, and so far they've lasted.. And these are probably shoes that rarely every get recommended because they don't check off every item on what ""good leather footwear"" is.
+
+&amp;#x200B;
+
+Not sure if my attempt on advice has turned into a rant, but please let me know on what you think on the topic. I believe it's still good to ask what's in style, but saying people should only look at brands xyz and everything else is trash is the wrong way to give advice.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;I&amp;#39;ve been a part of the male fashion community now for about 5-6 years now. I haven&amp;#39;t been really active in this subreddit for a while now, but I feel like this subreddit might have the most impact on what I have to say and have the best discussion going on the topic.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;What is the topic you may ask? Shoes. More specifically men&amp;#39;s leather shoes.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Since I&amp;#39;ve started coming here asking for advice, people have always recommended Allen Edmonds (AE) as a good baseline on what good shoes should be; goodyear welted, quality leather, etc. And I have always aspired to owning a pair of AEs. Being a broke college student at the time, it seemed so far away. I was thinking I&amp;#39;d have to be an engineer before I even thought about getting a pair of $400 AEs. A while later, I learned how low in price they could go when on sale. Still, $100+ is still a lot for a pair of shoes. However, through deals, I started to grow my collection. I started with a pair of beautiful [Andrew Lock monk straps](&lt;a href=""https://imgur.com/a/nJ8DM""&gt;https://imgur.com/a/nJ8DM&lt;/a&gt;), then I got a pair of Chippewa boots, then some Timberland bluchers, eventually I got my AEs, then another pair of AEs, and more, some Rider Boots Co derbies, and the list goes on.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve recently realized that, though I love the styles, I mainly got a lot of these because people were raving about how good they were. Their nice construction, good leather, etc. All this has been engrained in me. I even went further by using my leathercrafting knowledge to nitpick even more on the leather type and quality. Looking at my collection now, I see that it&amp;#39;s a decent size. I have everything I need for most occasions. I&amp;#39;ve followed what everyone says about what good leather footwear should be, but I&amp;#39;ve come to realize I don&amp;#39;t even wear a fraction of my collection. Why? &lt;em&gt;Because they&amp;#39;re not comfortable!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;...&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Ok. Maybe it&amp;#39;s more like &lt;em&gt;it&amp;#39;s not as comfortable&lt;/em&gt; as some shoes. I&amp;#39;ve noticed that I don&amp;#39;t wear a lot of my shoes because the break in is such a pain (literally). Why waste effort and be miserable when there are actually shoes that come out of the box comfortable? I&amp;#39;ve noticed for the last year, I&amp;#39;ve basically been wearing my black Bruno Magli derbies, my Jack Erwin oxfords, and my Clarks chukkas. Based on what this community deems as quality footwear, these are on the lower end of the list (blake stitch and cement construction) and they&amp;#39;ve lasted me *years* without any real signs of wear or failure.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;I like them, they look good, they&amp;#39;re comfortable, and so far they&amp;#39;ve lasted.. And these are probably shoes that rarely every get recommended because they don&amp;#39;t check off every item on what &amp;quot;good leather footwear&amp;quot; is.&lt;/p&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Not sure if my attempt on advice has turned into a rant, but please let me know on what you think on the topic. I believe it&amp;#39;s still good to ask what&amp;#39;s in style, but saying people should only look at brands xyz and everything else is trash is the wrong way to give advice.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,"Pick the shoes you like to wear, not what others tell you to wear",0,61,https://www.reddit.com/r/malefashionadvice/comments/bygphw/pick_the_shoes_you_like_to_wear_not_what_others/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560125096.0,1560096296.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,bylquy,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_bylquy,True,14,0,,False,all_ads,/r/malefashionadvice/comments/bylquy/general_discussion_june_09/,False,,,6,False,,,False,7,,{},"In this thread, you can talk about whatever you want. Talk about life, do whatever. Vent. Meet the community. 
+
+**Don't ask things that should go in Simple Questions.**
+
+Note: Comment rules still apply, so play nice.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;In this thread, you can talk about whatever you want. Talk about life, do whatever. Vent. Meet the community. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don&amp;#39;t ask things that should go in Simple Questions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: Comment rules still apply, so play nice.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,General Discussion - June 09,0,7,https://www.reddit.com/r/malefashionadvice/comments/bylquy/general_discussion_june_09/,[],,False,all_ads,6
+[],,,False,upflupchuckfck,,,[],,cheeky and fun ,dark,text,t2_6yuum,False,,,False,False,,False,,False,1560038399.0,1560009599.0,,,,imgur.com,0,False,0,{},False,False,by9elz,False,False,False,False,True,False,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_by9elz,False,28,1,,False,all_ads,/r/malefashionadvice/comments/by9elz/top_down_aerial_crotch_shot_waywt/,False,link,"{'images': [{'source': {'url': 'https://external-preview.redd.it/-s2ETUwFMGdBq62qaxlOPpvGNyFGOCyre8_9mRAbhUk.jpg?auto=webp&amp;s=8b82e62fb9ef7f54537f8b1ec11a219c4a19810d', 'width': 600, 'height': 683}, 'resolutions': [{'url': 'https://external-preview.redd.it/-s2ETUwFMGdBq62qaxlOPpvGNyFGOCyre8_9mRAbhUk.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=1222c7c6ced0ac6131177906f46b231f4c825c28', 'width': 108, 'height': 122}, {'url': 'https://external-preview.redd.it/-s2ETUwFMGdBq62qaxlOPpvGNyFGOCyre8_9mRAbhUk.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=2786728338a3a556403794837ca2ba0e1080b685', 'width': 216, 'height': 245}, {'url': 'https://external-preview.redd.it/-s2ETUwFMGdBq62qaxlOPpvGNyFGOCyre8_9mRAbhUk.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=33f7cde3a590b9f00ed92f71f7e03f3395bebd7c', 'width': 320, 'height': 364}], 'variants': {}, 'id': 'bDWgBCt_a5KcXmDsWYAB3eRccwIyDOJcsPfZzvPH2lU'}], 'enabled': False}",6,False,,,False,545,,{},,,True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/AsAP-Gx5FZux0r1laEbio-ay2gYVR31M0LQ55WOxySM.jpg,140.0,140.0,Top Down / Aerial / Crotch Shot WAYWT,0,545,https://imgur.com/ym0LdP4,[],,False,all_ads,6
+[],,,False,NYtoShanghai,,,[],,,,text,t2_11yspm,False,,,False,False,,False,,False,1560020067.0,1559991267.0,,,,i.redd.it,0,False,0,{},False,False,by6tej,False,False,False,True,True,False,False,,#9101f9,discussion ,[],8c5167bc-b172-11e7-9af6-0e809b1465da,Discussion,light,text,False,,{},False,,,,[],t3_by6tej,False,565,1,,False,all_ads,/r/malefashionadvice/comments/by6tej/what_do_you_think_of_the_trend_of_loosefitting/,False,image,"{'images': [{'source': {'url': 'https://preview.redd.it/td79jvd754331.png?auto=webp&amp;s=bac1f20045ad5a7f7e556ae526b9c3a3c190a10a', 'width': 2094, 'height': 694}, 'resolutions': [{'url': 'https://preview.redd.it/td79jvd754331.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=4d05e9feeb5ea4a10b5bbb66742dcb5af7a7d1c7', 'width': 108, 'height': 35}, {'url': 'https://preview.redd.it/td79jvd754331.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=bbe50ac9e8d3193e111a79120d6bc08a0799fbd0', 'width': 216, 'height': 71}, {'url': 'https://preview.redd.it/td79jvd754331.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=097c883bf0b55909fa78f686c6e2806f6a3a2024', 'width': 320, 'height': 106}, {'url': 'https://preview.redd.it/td79jvd754331.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=016adcb2393d7d7250c400587828a867cb87fcd9', 'width': 640, 'height': 212}, {'url': 'https://preview.redd.it/td79jvd754331.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=eb4ccbf21d32f80033556730f31cfb47a9152a23', 'width': 960, 'height': 318}, {'url': 'https://preview.redd.it/td79jvd754331.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=003f44e7f3c2bdcdff488f832f220a66f0d5e642', 'width': 1080, 'height': 357}], 'variants': {}, 'id': 'YqOD_Xg_7H3tgYXPUSzxA9pqZ-a15pWsQMX2qNKq4k8'}], 'enabled': True}",6,False,,,False,1398,,{},,,False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/rmNIVIrZw8sGIa0FSX3_xH5HtJMLPnNV1VG5sWtEZSU.jpg,46.0,140.0,"What do you think of the trend of loose-fitting, wide fit shirts/tops? is it becoming common in your city too?",0,1398,https://i.redd.it/td79jvd754331.png,[],,False,all_ads,6
+[],,,False,jj00011,,,[],,,,text,t2_10ed66,False,,,False,False,,False,,False,1560145328.0,1560116528.0,,,,self.malefashionadvice,0,False,0,{},False,False,bypicv,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_bypicv,True,4,0,,False,all_ads,/r/malefashionadvice/comments/bypicv/help_identifying_a_fashion_show_from_the_past/,False,,,6,False,,,False,2,,{},"Hi, all.  I need help identifying a fashion show from several years ago - one that I saw on YouTube, and now cannot find again.  I apologize in advance, because I may be offering very scant details from which to proceed - but perhaps even this little bit of information might be sufficient for someone to respond.
+
+It was a menswear collection, very hip/young, and - if I remember correctly - sort of inspired by London mod style.  I *think* all the guys were wearing dark sunglasses, and instead of them walking down a runway, they were posed on a stage.  The curtain went up (or the lights went on - or both?), and all of the models could be seen, standing in rows, and - again, *I think* \- standing in front of or inside some sort of large frame (or, in front of movie posters?)  I remember that the collection had something to do with film aesthetics - which explained why they were ""framed"" - but can't remember exactly how the connection was made.  I also have a vague recollection that it might have had something to do with Hitchcock or *Blow-Up*, but I'm not 100% (or even 61%) sure of this.  I can just clearly see the rows of men on stage, standing there completely still, and each somehow framed (even if it was perhaps only by lighting).
+
+Any help will be greatly appreciated.  Thanks in advance!","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Hi, all.  I need help identifying a fashion show from several years ago - one that I saw on YouTube, and now cannot find again.  I apologize in advance, because I may be offering very scant details from which to proceed - but perhaps even this little bit of information might be sufficient for someone to respond.&lt;/p&gt;
+
+&lt;p&gt;It was a menswear collection, very hip/young, and - if I remember correctly - sort of inspired by London mod style.  I &lt;em&gt;think&lt;/em&gt; all the guys were wearing dark sunglasses, and instead of them walking down a runway, they were posed on a stage.  The curtain went up (or the lights went on - or both?), and all of the models could be seen, standing in rows, and - again, &lt;em&gt;I think&lt;/em&gt; - standing in front of or inside some sort of large frame (or, in front of movie posters?)  I remember that the collection had something to do with film aesthetics - which explained why they were &amp;quot;framed&amp;quot; - but can&amp;#39;t remember exactly how the connection was made.  I also have a vague recollection that it might have had something to do with Hitchcock or &lt;em&gt;Blow-Up&lt;/em&gt;, but I&amp;#39;m not 100% (or even 61%) sure of this.  I can just clearly see the rows of men on stage, standing there completely still, and each somehow framed (even if it was perhaps only by lighting).&lt;/p&gt;
+
+&lt;p&gt;Any help will be greatly appreciated.  Thanks in advance!&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Help Identifying a Fashion Show from the Past,0,2,https://www.reddit.com/r/malefashionadvice/comments/bypicv/help_identifying_a_fashion_show_from_the_past/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560125101.0,1560096301.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,bylqwj,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_bylqwj,True,4,0,,False,all_ads,/r/malefashionadvice/comments/bylqwj/recent_purchases_june_09/,False,,,6,False,,,False,5,,{},"This thread is for sharing all your new buys. Clothes, shoes, cars, cologne, share it all. If possible, please post a picture and a little review!
+
+**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;This thread is for sharing all your new buys. Clothes, shoes, cars, cologne, share it all. If possible, please post a picture and a little review!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Recent Purchases - June 09,0,5,https://www.reddit.com/r/malefashionadvice/comments/bylqwj/recent_purchases_june_09/,[],,False,all_ads,6
+[],,,False,PsychoWorld,,,[],,,,text,t2_dqj5q,False,,,False,False,,False,,False,1560060402.0,1560031602.0,t3_bycuku,"[{'approved_at_utc': None, 'subreddit': 'goodyearwelt', 'selftext': '', 'author_fullname': 't2_dqj5q', 'saved': False, 'mod_reason_title': None, 'gilded': 0, 'clicked': False, 'title': 'Astorflex Bitflex 4 Months Review', 'link_flair_richtext': [], 'subreddit_name_prefixed': 'r/goodyearwelt', 'hidden': False, 'pwls': 6, 'link_flair_css_class': None, 'downs': 0, 'thumbnail_height': 105, 'hide_score': False, 'name': 't3_bycuku', 'quarantine': False, 'link_flair_text_color': 'dark', 'author_flair_background_color': '', 'subreddit_type': 'public', 'ups': 100, 'total_awards_received': 0, 'media_embed': {}, 'thumbnail_width': 140, 'author_flair_template_id': 'a46f328e-77e2-11e3-a9a1-12313d2c1868', 'is_original_content': False, 'user_reports': [], 'secure_media': None, 'is_reddit_media_domain': True, 'is_meta': False, 'category': None, 'secure_media_embed': {}, 'link_flair_text': 'Review', 'can_mod_post': False, 'score': 100, 'approved_by': None, 'thumbnail': 'https://a.thumbs.redditmedia.com/In42POP0q_j80FRTjyOx-m4hHOedmR7jFUvG-Boe270.jpg', 'edited': False, 'author_flair_css_class': '', 'author_flair_richtext': [], 'gildings': {}, 'post_hint': 'image', 'content_categories': None, 'is_self': False, 'mod_note': None, 'created': 1560058391.0, 'link_flair_type': 'text', 'wls': 6, 'banned_by': None, 'author_flair_type': 'text', 'domain': 'i.redd.it', 'selftext_html': None, 'likes': None, 'suggested_sort': None, 'banned_at_utc': None, 'view_count': None, 'archived': False, 'no_follow': False, 'is_crosspostable': False, 'pinned': False, 'over_18': False, 'preview': {'images': [{'source': {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?auto=webp&amp;s=4aa7b7d8cd5736c0b5c0922ed22bb83dae0177a1', 'width': 2048, 'height': 1536}, 'resolutions': [{'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=eb466662af6993fb6cdd622c910450b9ee3e7782', 'width': 108, 'height': 81}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=2bf962e58806e94c503b646c327c1967c0f4e89a', 'width': 216, 'height': 162}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=cfbeeb7c738bf64acb004aca16d83f86441380e0', 'width': 320, 'height': 240}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=98e1cf5e711657112581cd86b6fc403da2a6b9e2', 'width': 640, 'height': 480}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=d17f064f5f1bf914d2e7ce8adcde8e0d3112f277', 'width': 960, 'height': 720}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=7f169907ea19821db60ba99a7056bf028098716a', 'width': 1080, 'height': 810}], 'variants': {}, 'id': 'sfHj63btV_2UzWL5Ru7xuWdL-jajSQYa99qJl_5tCGA'}], 'enabled': True}, 'all_awardings': [], 'media_only': False, 'can_gild': False, 'spoiler': False, 'locked': False, 'author_flair_text': 'I love Top Tier Leather', 'visited': False, 'num_reports': None, 'distinguished': None, 'subreddit_id': 't5_2w64o', 'mod_reason_by': None, 'removal_reason': None, 'link_flair_background_color': '', 'id': 'bycuku', 'is_robot_indexable': True, 'report_reasons': None, 'author': 'PsychoWorld', 'num_crossposts': 1, 'num_comments': 17, 'send_replies': True, 'whitelist_status': 'all_ads', 'contest_mode': False, 'mod_reports': [], 'author_patreon_flair': False, 'author_flair_text_color': 'dark', 'permalink': '/r/goodyearwelt/comments/bycuku/astorflex_bitflex_4_months_review/', 'parent_whitelist_status': 'all_ads', 'stickied': False, 'url': 'https://i.redd.it/qzrwk5b5n5331.jpg', 'subreddit_subscribers': 101733, 'created_utc': 1560029591.0, 'media': None, 'is_video': False}]",,i.redd.it,0,False,0,{},False,False,byd6yc,False,False,False,True,True,False,False,,#990033,,[],7b191ef4-b172-11e7-b7bc-0ed941b96014,Review,light,text,False,,{},False,,,,[],t3_byd6yc,False,13,0,,False,all_ads,/r/malefashionadvice/comments/byd6yc/astorflex_bitflex_4_months_review/,False,image,"{'images': [{'source': {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?auto=webp&amp;s=4aa7b7d8cd5736c0b5c0922ed22bb83dae0177a1', 'width': 2048, 'height': 1536}, 'resolutions': [{'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=eb466662af6993fb6cdd622c910450b9ee3e7782', 'width': 108, 'height': 81}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=2bf962e58806e94c503b646c327c1967c0f4e89a', 'width': 216, 'height': 162}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=cfbeeb7c738bf64acb004aca16d83f86441380e0', 'width': 320, 'height': 240}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=98e1cf5e711657112581cd86b6fc403da2a6b9e2', 'width': 640, 'height': 480}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=d17f064f5f1bf914d2e7ce8adcde8e0d3112f277', 'width': 960, 'height': 720}, {'url': 'https://preview.redd.it/qzrwk5b5n5331.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=7f169907ea19821db60ba99a7056bf028098716a', 'width': 1080, 'height': 810}], 'variants': {}, 'id': 'sfHj63btV_2UzWL5Ru7xuWdL-jajSQYa99qJl_5tCGA'}], 'enabled': True}",6,False,,,False,78,,{},,,True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://a.thumbs.redditmedia.com/In42POP0q_j80FRTjyOx-m4hHOedmR7jFUvG-Boe270.jpg,105.0,140.0,Astorflex Bitflex 4 Months Review,0,78,https://i.redd.it/qzrwk5b5n5331.jpg,[],,False,all_ads,6
+[],,,False,yourboykush,,,[],,,,text,t2_cniwm,False,,,False,False,,False,,False,1560055090.0,1560026290.0,,,,self.malefashionadvice,0,1560086647.0,0,{},False,False,bycamc,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_bycamc,False,54,0,,False,all_ads,/r/malefashionadvice/comments/bycamc/is_it_possible_to_wear_jordans_yeezys_etc_and/,False,,,6,False,,,False,42,,{},"Hi everyone! I’m a long time lurker is this sub but this is my first time posting here.  Gotten lots of good advice from the community and figured tHis would be a good place for some advice/discussion. 
+
+First off, a little about myself.  I am 6’5” 205lbs and turning 40 in a few short weeks.  In my quest to “dress my age” I have recently decided to revamp my entire wardrobe. I’ve bought a lot of chinos &amp; denim from Banana Republic and simplified my shirts with a few polos, button ups and v-necks. I gave almost everything I had to goodwill and just decided to almost completely start over... with the exception of my shoes. 
+
+Growing up my parents couldn’t afford to buy me the shoes that I really wanted so once I was older and in a position where I could afford them, I bought them. I currently have somewhere around 70 pairs of sneakers, consisting mostly of Jordan’s, air max 1’s, Air Force 1’s and Yeezy’s.  At this point my shoe collection is absolutely not something I am willing to part with. 
+
+So that leads me to my question.  Is it possible to dress more “age appropriate” while still proudly wearing my sneaker collection and not looking like a clown in the process?
+
+EDIT:  I just want to say thank you to everyone for your input.  I probably should have mentioned from the start that my job pretty much allows me to wear whatever I want. I do work in an office but I work in the construction/home improvement industry. I have very, very minimal face to face contact with customers and most of the communication I have with them is via phone/email.  I also have full sleeve tattoos on both arms, including my hands. 
+
+I’m good with mixing &amp; matching colors, and I also know better than to wear something bright and crazy during inappropriate scenarios. (Not going to wear a pair of Shattered Backboard AJ1’s to an important meeting with the boss and some vendors)
+
+On the topic of watches, I currently own a couple (Nixon, Diesel and Guess).  After listening to some advice and doing a little research of my own... and listening to the current state of my bank account I’ve decided to purchase an Orient Bambino. I really, really like a lot of the Hamilton pieces but think I need to save up a bit before I take the plunge on those.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Hi everyone! I’m a long time lurker is this sub but this is my first time posting here.  Gotten lots of good advice from the community and figured tHis would be a good place for some advice/discussion. &lt;/p&gt;
+
+&lt;p&gt;First off, a little about myself.  I am 6’5” 205lbs and turning 40 in a few short weeks.  In my quest to “dress my age” I have recently decided to revamp my entire wardrobe. I’ve bought a lot of chinos &amp;amp; denim from Banana Republic and simplified my shirts with a few polos, button ups and v-necks. I gave almost everything I had to goodwill and just decided to almost completely start over... with the exception of my shoes. &lt;/p&gt;
+
+&lt;p&gt;Growing up my parents couldn’t afford to buy me the shoes that I really wanted so once I was older and in a position where I could afford them, I bought them. I currently have somewhere around 70 pairs of sneakers, consisting mostly of Jordan’s, air max 1’s, Air Force 1’s and Yeezy’s.  At this point my shoe collection is absolutely not something I am willing to part with. &lt;/p&gt;
+
+&lt;p&gt;So that leads me to my question.  Is it possible to dress more “age appropriate” while still proudly wearing my sneaker collection and not looking like a clown in the process?&lt;/p&gt;
+
+&lt;p&gt;EDIT:  I just want to say thank you to everyone for your input.  I probably should have mentioned from the start that my job pretty much allows me to wear whatever I want. I do work in an office but I work in the construction/home improvement industry. I have very, very minimal face to face contact with customers and most of the communication I have with them is via phone/email.  I also have full sleeve tattoos on both arms, including my hands. &lt;/p&gt;
+
+&lt;p&gt;I’m good with mixing &amp;amp; matching colors, and I also know better than to wear something bright and crazy during inappropriate scenarios. (Not going to wear a pair of Shattered Backboard AJ1’s to an important meeting with the boss and some vendors)&lt;/p&gt;
+
+&lt;p&gt;On the topic of watches, I currently own a couple (Nixon, Diesel and Guess).  After listening to some advice and doing a little research of my own... and listening to the current state of my bank account I’ve decided to purchase an Orient Bambino. I really, really like a lot of the Hamilton pieces but think I need to save up a bit before I take the plunge on those.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,"Is it possible to wear Jordan’s, Yeezys etc and still dress “age appropriate”",0,42,https://www.reddit.com/r/malefashionadvice/comments/bycamc/is_it_possible_to_wear_jordans_yeezys_etc_and/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560074676.0,1560045876.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,byfehm,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_byfehm,True,138,0,,False,all_ads,/r/malefashionadvice/comments/byfehm/daily_questions_ask_and_answer_here_june_08/,False,,,6,False,,,False,8,,{},"Welcome to the /r/MaleFashionAdvice Daily Questions thread - Our Daily thread to ask about all things related to male fashion. This thread is for simple style questions that don't warrant their own thread (although we strongly suggest checking the sidebar and [the wiki before](https://www.reddit.com/r/malefashionadvice/wiki/index) posting!). Anyone can post a question and the community as a whole is invited and encouraged to provide an answer.
+  
+Also, theres a handy-dandy search bar to your right, and if you didn't know, you can also use Google to search MFA by using the limiter ""site:reddit.com/r/malefashionadvice"" after your search topic. 
+
+Be aware that the more information you add (BUDGET), the more relevant answers you may receive. 
+  
+Fit checks and ""How'd I do"" questions are a great use of this thread (although they can also go in the daily Outfit Feedback &amp;amp; Fit Check thread). Other example questions:
+  
+* Could someone take the chest measurement for a small J.Crew oxford
+* Is there a place with full measurements for Naked &amp;amp; Famous jeans?
+* What slim-fitting green cords do you recommend?
+* Where do I find a military surplus peacoat online?
+* If you're asking for suggestions for a specific kind of clothing/accessory, **state what your budget is**.
+* If you're looking for item identification from a video **take a screenshot, do not link the video**. 
+
+**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Welcome to the &lt;a href=""/r/MaleFashionAdvice""&gt;/r/MaleFashionAdvice&lt;/a&gt; Daily Questions thread - Our Daily thread to ask about all things related to male fashion. This thread is for simple style questions that don&amp;#39;t warrant their own thread (although we strongly suggest checking the sidebar and &lt;a href=""https://www.reddit.com/r/malefashionadvice/wiki/index""&gt;the wiki before&lt;/a&gt; posting!). Anyone can post a question and the community as a whole is invited and encouraged to provide an answer.&lt;/p&gt;
+
+&lt;p&gt;Also, theres a handy-dandy search bar to your right, and if you didn&amp;#39;t know, you can also use Google to search MFA by using the limiter &amp;quot;site:reddit.com&lt;a href=""/r/malefashionadvice""&gt;/r/malefashionadvice&lt;/a&gt;&amp;quot; after your search topic. &lt;/p&gt;
+
+&lt;p&gt;Be aware that the more information you add (BUDGET), the more relevant answers you may receive. &lt;/p&gt;
+
+&lt;p&gt;Fit checks and &amp;quot;How&amp;#39;d I do&amp;quot; questions are a great use of this thread (although they can also go in the daily Outfit Feedback &amp;amp; Fit Check thread). Other example questions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Could someone take the chest measurement for a small J.Crew oxford&lt;/li&gt;
+&lt;li&gt;Is there a place with full measurements for Naked &amp;amp; Famous jeans?&lt;/li&gt;
+&lt;li&gt;What slim-fitting green cords do you recommend?&lt;/li&gt;
+&lt;li&gt;Where do I find a military surplus peacoat online?&lt;/li&gt;
+&lt;li&gt;If you&amp;#39;re asking for suggestions for a specific kind of clothing/accessory, &lt;strong&gt;state what your budget is&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If you&amp;#39;re looking for item identification from a video &lt;strong&gt;take a screenshot, do not link the video&lt;/strong&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,new,self,,,Daily Questions - ASK AND ANSWER HERE!- June 08,0,8,https://www.reddit.com/r/malefashionadvice/comments/byfehm/daily_questions_ask_and_answer_here_june_08/,[],,False,all_ads,6
+[],,,False,deevee7,,,[],,,,text,t2_1496iy,False,,,False,False,,False,,False,1560049017.0,1560020217.0,,,,self.malefashionadvice,0,False,0,{},False,False,byb9nc,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_byb9nc,False,20,0,,False,all_ads,/r/malefashionadvice/comments/byb9nc/looking_for_a_smartcasual_messengerlaptop_bag/,False,,,6,False,,,False,20,,{},"So I'm going to be teaching at a university soon and while I've always preferred backpacks, I don't think that will fit my style as a teacher because I'm relatively young (27) and don't want to look like a student - especially since my usual smart-casual style will involve wearing sneakers, jeans or pants, and untucked dress shirts.
+
+I'm looking for a bag to keep my laptop in, but also one that has enough space to keep various documents, exams etc. What I am looking to avoid is the typical black leather bag, which is too bland and boring for my liking, and also avoiding bags that are bulky and have those dual clips at the front (like most  messenger bags). 
+
+What sort of materials/colors should I be going for?
+
+[Here's an example](https://www.amazon.com/Upgraded-Shock-Proof-Tree-Notebook-Light-Weight/dp/B0719S442B/ref=sr_1_4?keywords=laptop%2Bshoulder%2Bbag&amp;qid=1559513367&amp;s=gateway&amp;sr=8-4&amp;th=1) of something I like: the bag has two compartments inside, isn't plain black leather, and not too big.
+
+Budget is around $75.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;So I&amp;#39;m going to be teaching at a university soon and while I&amp;#39;ve always preferred backpacks, I don&amp;#39;t think that will fit my style as a teacher because I&amp;#39;m relatively young (27) and don&amp;#39;t want to look like a student - especially since my usual smart-casual style will involve wearing sneakers, jeans or pants, and untucked dress shirts.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking for a bag to keep my laptop in, but also one that has enough space to keep various documents, exams etc. What I am looking to avoid is the typical black leather bag, which is too bland and boring for my liking, and also avoiding bags that are bulky and have those dual clips at the front (like most  messenger bags). &lt;/p&gt;
+
+&lt;p&gt;What sort of materials/colors should I be going for?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=""https://www.amazon.com/Upgraded-Shock-Proof-Tree-Notebook-Light-Weight/dp/B0719S442B/ref=sr_1_4?keywords=laptop%2Bshoulder%2Bbag&amp;amp;qid=1559513367&amp;amp;s=gateway&amp;amp;sr=8-4&amp;amp;th=1""&gt;Here&amp;#39;s an example&lt;/a&gt; of something I like: the bag has two compartments inside, isn&amp;#39;t plain black leather, and not too big.&lt;/p&gt;
+
+&lt;p&gt;Budget is around $75.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Looking for a smart-casual messenger/laptop bag,0,20,https://www.reddit.com/r/malefashionadvice/comments/byb9nc/looking_for_a_smartcasual_messengerlaptop_bag/,[],,False,all_ads,6
+[],,,False,FederalAvocado,,,[],,,,text,t2_3wtqtqai,False,,,False,False,,False,,False,1560042164.0,1560013364.0,,,,self.malefashionadvice,0,False,0,{},False,False,bya2h7,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_bya2h7,False,12,0,,False,all_ads,/r/malefashionadvice/comments/bya2h7/received_my_first_mtm_shirt_fit_is_off_looking/,False,self,"{'images': [{'source': {'url': 'https://external-preview.redd.it/OWBRVQ_t8Ae068bcwd4BOEYsdVWG2E8MMzfxZU3ATQA.png?auto=webp&amp;s=1edf8c1c2ce1e66576f8632a221abee2ee380cac', 'width': 949, 'height': 907}, 'resolutions': [{'url': 'https://external-preview.redd.it/OWBRVQ_t8Ae068bcwd4BOEYsdVWG2E8MMzfxZU3ATQA.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=835592400389624ae1e1d111aeee2029e2c43e48', 'width': 108, 'height': 103}, {'url': 'https://external-preview.redd.it/OWBRVQ_t8Ae068bcwd4BOEYsdVWG2E8MMzfxZU3ATQA.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=1074486fb240012171a96069f7e425bd3df7b08f', 'width': 216, 'height': 206}, {'url': 'https://external-preview.redd.it/OWBRVQ_t8Ae068bcwd4BOEYsdVWG2E8MMzfxZU3ATQA.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=ab67c8b250c7525068013a4d3c2459386b7981c1', 'width': 320, 'height': 305}, {'url': 'https://external-preview.redd.it/OWBRVQ_t8Ae068bcwd4BOEYsdVWG2E8MMzfxZU3ATQA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3a858bf033171d3ab03d31736323cf91a59084a9', 'width': 640, 'height': 611}], 'variants': {}, 'id': 'g-QaYgVww7_ZjV-TM5HAx1cvKwX9Ahpzi-nJULDrQ14'}], 'enabled': False}",6,False,,,False,14,,{},"I just received and washed my first MTM shirt but the fit is off. The site I ordered from (propercloth) offers 1 or 2 free remakes, so I want to make sure I use them wisely. Here are my ordered dimensions and me wearing it:
+
+* Ordered dimensions: [https://i.imgur.com/hMeNUsL.png](https://i.imgur.com/hMeNUsL.png)
+* Front: [https://i.imgur.com/ppCkXpX.jpg](https://i.imgur.com/ppCkXpX.jpg)
+* Side: [https://i.imgur.com/lnX0yMa.jpg](https://i.imgur.com/lnX0yMa.jpg)
+* Back: [https://i.imgur.com/fxh2rG7.jpg](https://i.imgur.com/fxh2rG7.jpg)
+* Arms out front: [https://i.imgur.com/x5nHZ8u.jpg](https://i.imgur.com/x5nHZ8u.jpg)
+* Arms out side: [https://i.imgur.com/uMlfXME.jpg](https://i.imgur.com/uMlfXME.jpg)
+* Arms out back: [https://i.imgur.com/iIrXnkn.jpg](https://i.imgur.com/iIrXnkn.jpg)
+
+&amp;#x200B;
+
+Some things I noticed and my initial ideas:
+
+* Shirt length feels short. Increase from 28 to 31 (adds 8th button).
+* Chest is tight. Increase from 18 to 20 or 22.
+* Collar feels loose. I plan to wear this casual with the top button always undone. Decrease from 15.5 to ?
+   * Wish I had chosen ""Colorado button down"" collar instead - this one feels a bit large. Unfortunately I don't think this can be changed.
+* Sleeve width feels snug. Increase from 6.5 to 8
+* My arm movement feels restricted with my arms out front. Not sure which changes will fix this. Thoughts:
+   * Maybe shorten the yoke?
+   * Will this already be fixed by increasing the chest?
+   * Maybe Change the should/armpit fit from ""tailored"" to ""full""
+   * Maybe Change ""Rear Pleats"" from ""none"" to ""side pleats""
+
+I'm very new to this and looking for feedback and any advice you can give. Thanks!","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;I just received and washed my first MTM shirt but the fit is off. The site I ordered from (propercloth) offers 1 or 2 free remakes, so I want to make sure I use them wisely. Here are my ordered dimensions and me wearing it:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ordered dimensions: &lt;a href=""https://i.imgur.com/hMeNUsL.png""&gt;https://i.imgur.com/hMeNUsL.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Front: &lt;a href=""https://i.imgur.com/ppCkXpX.jpg""&gt;https://i.imgur.com/ppCkXpX.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Side: &lt;a href=""https://i.imgur.com/lnX0yMa.jpg""&gt;https://i.imgur.com/lnX0yMa.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Back: &lt;a href=""https://i.imgur.com/fxh2rG7.jpg""&gt;https://i.imgur.com/fxh2rG7.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arms out front: &lt;a href=""https://i.imgur.com/x5nHZ8u.jpg""&gt;https://i.imgur.com/x5nHZ8u.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arms out side: &lt;a href=""https://i.imgur.com/uMlfXME.jpg""&gt;https://i.imgur.com/uMlfXME.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arms out back: &lt;a href=""https://i.imgur.com/iIrXnkn.jpg""&gt;https://i.imgur.com/iIrXnkn.jpg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;#x200B;&lt;/p&gt;
+
+&lt;p&gt;Some things I noticed and my initial ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shirt length feels short. Increase from 28 to 31 (adds 8th button).&lt;/li&gt;
+&lt;li&gt;Chest is tight. Increase from 18 to 20 or 22.&lt;/li&gt;
+&lt;li&gt;Collar feels loose. I plan to wear this casual with the top button always undone. Decrease from 15.5 to ?
+
+&lt;ul&gt;
+&lt;li&gt;Wish I had chosen &amp;quot;Colorado button down&amp;quot; collar instead - this one feels a bit large. Unfortunately I don&amp;#39;t think this can be changed.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Sleeve width feels snug. Increase from 6.5 to 8&lt;/li&gt;
+&lt;li&gt;My arm movement feels restricted with my arms out front. Not sure which changes will fix this. Thoughts:
+
+&lt;ul&gt;
+&lt;li&gt;Maybe shorten the yoke?&lt;/li&gt;
+&lt;li&gt;Will this already be fixed by increasing the chest?&lt;/li&gt;
+&lt;li&gt;Maybe Change the should/armpit fit from &amp;quot;tailored&amp;quot; to &amp;quot;full&amp;quot;&lt;/li&gt;
+&lt;li&gt;Maybe Change &amp;quot;Rear Pleats&amp;quot; from &amp;quot;none&amp;quot; to &amp;quot;side pleats&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#39;m very new to this and looking for feedback and any advice you can give. Thanks!&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Received my first MTM shirt. Fit is off. Looking for alteration advice.,0,14,https://www.reddit.com/r/malefashionadvice/comments/bya2h7/received_my_first_mtm_shirt_fit_is_off_looking/,[],,False,all_ads,6
+[],,,False,wai_yu_do_dis,,,[],,,,text,t2_13911z,False,,,False,False,,False,,False,1560014662.0,1559985862.0,,,,forbes.com,0,False,0,{},False,False,by67w5,False,False,False,False,True,False,False,,#ed6724,article,[],6d0a9cde-b172-11e7-8b41-0ece60d97a74,Article,light,text,False,,{},False,,,,[],t3_by67w5,False,12,0,,False,all_ads,/r/malefashionadvice/comments/by67w5/people_peeling_clothes_off_of_mannequins_kaws/,False,link,"{'images': [{'source': {'url': 'https://external-preview.redd.it/drNfJGdX2ZipRVmb6Eo3BS0E0Rb6E9HJ4w8AFeGPiTM.jpg?auto=webp&amp;s=b37e9ff28b9738e9b253ca76ca035d3efcdf80c7', 'width': 600, 'height': 315}, 'resolutions': [{'url': 'https://external-preview.redd.it/drNfJGdX2ZipRVmb6Eo3BS0E0Rb6E9HJ4w8AFeGPiTM.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=ba58f1fc6277d82ca633b94aec1f7337d3c308d9', 'width': 108, 'height': 56}, {'url': 'https://external-preview.redd.it/drNfJGdX2ZipRVmb6Eo3BS0E0Rb6E9HJ4w8AFeGPiTM.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=24a1e9c74d49b2851ba4bb40364c1c1aecc496d9', 'width': 216, 'height': 113}, {'url': 'https://external-preview.redd.it/drNfJGdX2ZipRVmb6Eo3BS0E0Rb6E9HJ4w8AFeGPiTM.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d3d33e73d6fca9b1e0015586f220b0ca448d6268', 'width': 320, 'height': 168}], 'variants': {}, 'id': 'w2HV-Ggbgr76wRAHaNV7kQvy5qT_uBQ8yCVSJGMLn_o'}], 'enabled': False}",6,False,,,False,58,,{},,,False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/oFGSv3-2M1ftMLlVJBMh_fZr4WFtmU2ZxYrtah6epnA.jpg,73.0,140.0,People peeling clothes off of mannequins | KAWS Collaboration With Uniqlo Debuts—Chaos Ensues,0,58,https://www.forbes.com/sites/lisettevoytko/2019/06/04/kaws-collaboration-with-uniqlo-debutschaos-ensues/#3354f6283663,[],,False,all_ads,6
+[],,,False,AExp21,,,[],,,,text,t2_uj14n,False,,,False,False,,False,,False,1560025100.0,1559996300.0,t3_by6s93,"[{'approved_at_utc': None, 'subreddit': 'humor', 'selftext': '', 'author_fullname': 't2_wdya5', 'saved': False, 'mod_reason_title': None, 'gilded': 0, 'clicked': False, 'title': 'The Rise and Fall of Fedoras | Ordinary Things', 'link_flair_richtext': [], 'subreddit_name_prefixed': 'r/humor', 'hidden': False, 'pwls': 6, 'link_flair_css_class': None, 'downs': 0, 'thumbnail_height': 105, 'hide_score': False, 'name': 't3_by6s93', 'quarantine': False, 'link_flair_text_color': 'dark', 'author_flair_background_color': None, 'subreddit_type': 'public', 'ups': 533, 'total_awards_received': 0, 'media_embed': {'content': '&lt;iframe width=""600"" height=""338"" src=""https://www.youtube.com/embed/IOuWr99JSNE?feature=oembed&amp;enablejsapi=1"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen&gt;&lt;/iframe&gt;', 'width': 600, 'scrolling': False, 'height': 338}, 'thumbnail_width': 140, 'author_flair_template_id': None, 'is_original_content': False, 'user_reports': [], 'secure_media': {'oembed': {'provider_url': 'https://www.youtube.com/', 'title': 'Fedoras | Ordinary Things', 'html': '&lt;iframe width=""600"" height=""338"" src=""https://www.youtube.com/embed/IOuWr99JSNE?feature=oembed&amp;enablejsapi=1"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen&gt;&lt;/iframe&gt;', 'thumbnail_width': 480, 'height': 338, 'width': 600, 'version': '1.0', 'author_name': 'Ordinary Things', 'provider_name': 'YouTube', 'thumbnail_url': 'https://i.ytimg.com/vi/IOuWr99JSNE/hqdefault.jpg', 'type': 'video', 'thumbnail_height': 360, 'author_url': 'https://www.youtube.com/channel/UCxLYtICsUCWdr1YPrj5DtwA'}, 'type': 'youtube.com'}, 'is_reddit_media_domain': False, 'is_meta': False, 'category': None, 'secure_media_embed': {'content': '&lt;iframe width=""600"" height=""338"" src=""https://www.youtube.com/embed/IOuWr99JSNE?feature=oembed&amp;enablejsapi=1"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen&gt;&lt;/iframe&gt;', 'width': 600, 'scrolling': False, 'media_domain_url': 'https://www.redditmedia.com/mediaembed/by6s93', 'height': 338}, 'link_flair_text': None, 'can_mod_post': False, 'score': 533, 'approved_by': None, 'thumbnail': 'image', 'edited': False, 'author_flair_css_class': None, 'author_flair_richtext': [], 'gildings': {}, 'post_hint': 'rich:video', 'content_categories': None, 'is_self': False, 'mod_note': None, 'created': 1560019745.0, 'link_flair_type': 'text', 'wls': 6, 'banned_by': None, 'author_flair_type': 'text', 'domain': 'youtu.be', 'selftext_html': None, 'likes': None, 'suggested_sort': None, 'banned_at_utc': None, 'view_count': None, 'archived': False, 'no_follow': False, 'is_crosspostable': False, 'pinned': False, 'over_18': False, 'preview': {'images': [{'source': {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?auto=webp&amp;s=a40cd48f893176f8d2d9b970344665235bd3fbd3', 'width': 480, 'height': 360}, 'resolutions': [{'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=6ad80919cb47a3caa3857453688e5b963a2f4721', 'width': 108, 'height': 81}, {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=eb1172e8714b661305613d40bbb9228dd428c320', 'width': 216, 'height': 162}, {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=160a3a5e2a111267df5c88b629e9aed178d6f8af', 'width': 320, 'height': 240}], 'variants': {}, 'id': 'NLCf3AM_ucHlwBkq-Q5bM4zLapMwcErTqEBRIoj1DLs'}], 'enabled': False}, 'all_awardings': [], 'media_only': False, 'can_gild': False, 'spoiler': False, 'locked': False, 'author_flair_text': None, 'visited': False, 'num_reports': None, 'distinguished': None, 'subreddit_id': 't5_2qh34', 'mod_reason_by': None, 'removal_reason': None, 'link_flair_background_color': '', 'id': 'by6s93', 'is_robot_indexable': True, 'report_reasons': None, 'author': 'jstupple', 'num_crossposts': 2, 'num_comments': 34, 'send_replies': True, 'whitelist_status': 'all_ads', 'contest_mode': False, 'mod_reports': [], 'author_patreon_flair': False, 'author_flair_text_color': None, 'permalink': '/r/humor/comments/by6s93/the_rise_and_fall_of_fedoras_ordinary_things/', 'parent_whitelist_status': 'all_ads', 'stickied': False, 'url': 'https://youtu.be/IOuWr99JSNE', 'subreddit_subscribers': 1469362, 'created_utc': 1559990945.0, 'media': {'oembed': {'provider_url': 'https://www.youtube.com/', 'title': 'Fedoras | Ordinary Things', 'html': '&lt;iframe width=""600"" height=""338"" src=""https://www.youtube.com/embed/IOuWr99JSNE?feature=oembed&amp;enablejsapi=1"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen&gt;&lt;/iframe&gt;', 'thumbnail_width': 480, 'height': 338, 'width': 600, 'version': '1.0', 'author_name': 'Ordinary Things', 'provider_name': 'YouTube', 'thumbnail_url': 'https://i.ytimg.com/vi/IOuWr99JSNE/hqdefault.jpg', 'type': 'video', 'thumbnail_height': 360, 'author_url': 'https://www.youtube.com/channel/UCxLYtICsUCWdr1YPrj5DtwA'}, 'type': 'youtube.com'}, 'is_video': False}]",,youtu.be,0,False,0,{},False,False,by7ew3,False,False,False,False,True,False,False,,#cc99ff,video ,[],b4503aac-41ca-11e8-b8fa-0e0a3d6b2e38,Video,light,text,False,,{},False,,,,[],t3_by7ew3,False,4,0,,False,all_ads,/r/malefashionadvice/comments/by7ew3/the_rise_and_fall_of_fedoras_ordinary_things/,False,link,"{'images': [{'source': {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?auto=webp&amp;s=a40cd48f893176f8d2d9b970344665235bd3fbd3', 'width': 480, 'height': 360}, 'resolutions': [{'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=6ad80919cb47a3caa3857453688e5b963a2f4721', 'width': 108, 'height': 81}, {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=eb1172e8714b661305613d40bbb9228dd428c320', 'width': 216, 'height': 162}, {'url': 'https://external-preview.redd.it/AmLrhlLenRO85LkXC-ZymKdHl7GrXdYi5XFf13uGluc.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=160a3a5e2a111267df5c88b629e9aed178d6f8af', 'width': 320, 'height': 240}], 'variants': {}, 'id': 'NLCf3AM_ucHlwBkq-Q5bM4zLapMwcErTqEBRIoj1DLs'}], 'enabled': False}",6,False,,,False,21,,{},,,True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/6HCcR5V__L6Kkbj9-JZQ-XxdQt_yKVnP6xppilQX4es.jpg,105.0,140.0,The Rise and Fall of Fedoras | Ordinary Things,0,21,https://youtu.be/IOuWr99JSNE,[],,False,all_ads,6
+[],,,False,toddshelton,,,[],,,,text,t2_j36cf,False,,,False,False,,False,,False,1560017721.0,1559988921.0,,,,fastcompany.com,0,False,0,{},False,False,by6kdq,False,False,False,False,True,False,False,,#ed6724,article,[],6d0a9cde-b172-11e7-8b41-0ece60d97a74,Article,light,text,False,,{},False,,,,[],t3_by6kdq,False,35,0,,False,all_ads,/r/malefashionadvice/comments/by6kdq/the_next_big_thing_in_fashion_not_washing_your/,False,link,"{'images': [{'source': {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?auto=webp&amp;s=ff50be3c9139bb281acff0d47f34a4475acb6830', 'width': 1280, 'height': 720}, 'resolutions': [{'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=2e0c7faf338d5385ac13ce8cbebf220478097d1e', 'width': 108, 'height': 60}, {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=cb500ca0118efdcb97c6fe4c0c1974d8c6720261', 'width': 216, 'height': 121}, {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1935858c20b88e9678adce5c23b59251ffb6853d', 'width': 320, 'height': 180}, {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c8019a7c874bcaec2052a8de240e2cbe22a6f761', 'width': 640, 'height': 360}, {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=95017956ae9a6070c44d738df124f76d2481e38c', 'width': 960, 'height': 540}, {'url': 'https://external-preview.redd.it/eOoDs4pBzrvPQahF7FDmspFHJXfdNhjnCzPatzQgU0c.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=5382358038547a2102cf93c8441e4f59d6c5a5fd', 'width': 1080, 'height': 607}], 'variants': {}, 'id': 'kGTamhVCfllKl7wBVuTU10vAApnWBqRqVWCiILA59f0'}], 'enabled': False}",6,False,,,False,32,,{},,,True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,https://b.thumbs.redditmedia.com/JzqO00umPsuhHWe66jZUnNbtdc9Xm1e-wf3W6fLuljU.jpg,78.0,140.0,The next big thing in fashion? Not washing your clothes,0,32,https://www.fastcompany.com/90359188/the-next-big-thing-in-fashion-not-washing-your-clothes,[],,False,all_ads,6
+[],,,False,vexlit,,,[],,,,text,t2_azylz3e,False,,,False,False,,False,,False,1560033994.0,1560005194.0,,,,self.malefashionadvice,0,False,0,{},False,False,by8oh0,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_by8oh0,False,11,0,,False,all_ads,/r/malefashionadvice/comments/by8oh0/is_this_belt_smart_belt_30_worth_67_dollars/,False,self,"{'images': [{'source': {'url': 'https://external-preview.redd.it/IRZdEJLwNreb_JKgqx2SaYFEwwDNvS699aVIs0ofFxU.jpg?auto=webp&amp;s=ce63db048df95fe93803c32a9fd3f653b13ee7b5', 'width': 560, 'height': 315}, 'resolutions': [{'url': 'https://external-preview.redd.it/IRZdEJLwNreb_JKgqx2SaYFEwwDNvS699aVIs0ofFxU.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=456e966a4243bcb78a66366cb5020e73a66e5104', 'width': 108, 'height': 60}, {'url': 'https://external-preview.redd.it/IRZdEJLwNreb_JKgqx2SaYFEwwDNvS699aVIs0ofFxU.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=8c7f38d7d8ecfda357c5f127cee00a711848b2ff', 'width': 216, 'height': 121}, {'url': 'https://external-preview.redd.it/IRZdEJLwNreb_JKgqx2SaYFEwwDNvS699aVIs0ofFxU.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=5f9c56e4053f8615b6a6070040a629ce42104b85', 'width': 320, 'height': 180}], 'variants': {}, 'id': 'J8sKyUev3bKiT4JwEAr7F3OEmVMIrg8XaEmCgHJLiMY'}], 'enabled': False}",6,False,,,False,12,,{}," [https://www.kickstarter.com/projects/1410511531/smart-belt-30-the-most-funded-accessory-in-history](https://www.kickstarter.com/projects/1410511531/smart-belt-30-the-most-funded-accessory-in-history) 
+
+It's got a Kevlar core, 32 microadjustments and is made of full grain vegetable tanned italian leather. 
+
+Any thoughts? I'd rather check out people's opinions before committing to backing.
+
+Thanks!","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;&lt;a href=""https://www.kickstarter.com/projects/1410511531/smart-belt-30-the-most-funded-accessory-in-history""&gt;https://www.kickstarter.com/projects/1410511531/smart-belt-30-the-most-funded-accessory-in-history&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s got a Kevlar core, 32 microadjustments and is made of full grain vegetable tanned italian leather. &lt;/p&gt;
+
+&lt;p&gt;Any thoughts? I&amp;#39;d rather check out people&amp;#39;s opinions before committing to backing.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Is this belt (Smart Belt 3.0) worth $67 dollars?,0,12,https://www.reddit.com/r/malefashionadvice/comments/by8oh0/is_this_belt_smart_belt_30_worth_67_dollars/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560038685.0,1560009885.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,by9gi2,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_by9gi2,True,20,0,,False,all_ads,/r/malefashionadvice/comments/by9gi2/outfit_feedback_and_fit_check_june_08/,False,,,6,False,,,False,9,,{},"Post a picture of what you're wearing to get suggestions, feedback and constructive criticism from the community. When posting, please:
+
+* Include what the attire is for (work, school, going out, etc.)
+
+* Include a front-on, full-body picture with your hands at your sides. Multiple pictures from different angles can be helpful, but aren't necessary. There's more info on taking good self-shots [here](http://www.reddit.com/r/malefashionadvice/comments/16rwft/how_to_take_better_self_pics_for_mfa/).
+
+ Critiquing others is welcome and encouraged, but keep it constructive/factual.  It takes balls to post pictures of yourself on the Internet, the least you can do is accord the same courtesy as you would to someone in real life.
+
+ **Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Post a picture of what you&amp;#39;re wearing to get suggestions, feedback and constructive criticism from the community. When posting, please:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Include what the attire is for (work, school, going out, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Include a front-on, full-body picture with your hands at your sides. Multiple pictures from different angles can be helpful, but aren&amp;#39;t necessary. There&amp;#39;s more info on taking good self-shots &lt;a href=""http://www.reddit.com/r/malefashionadvice/comments/16rwft/how_to_take_better_self_pics_for_mfa/""&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Critiquing others is welcome and encouraged, but keep it constructive/factual.  It takes balls to post pictures of yourself on the Internet, the least you can do is accord the same courtesy as you would to someone in real life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,new,self,,,Outfit Feedback and Fit Check - June 08,0,9,https://www.reddit.com/r/malefashionadvice/comments/by9gi2/outfit_feedback_and_fit_check_june_08/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560038679.0,1560009879.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,by9gh0,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_by9gh0,True,24,0,,False,all_ads,/r/malefashionadvice/comments/by9gh0/should_i_or_shouldnt_i_buy_june_08/,False,,,6,False,,,False,8,,{},"Get feedback on items you are considering buying, whether to pull the trigger or save your money, or be given another option.
+
+**Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.**","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;Get feedback on items you are considering buying, whether to pull the trigger or save your money, or be given another option.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important: Downvotes are strongly discouraged in this thread. Sorting by new is strongly encouraged.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,Should I or Shouldn't I Buy? - June 08,0,8,https://www.reddit.com/r/malefashionadvice/comments/by9gh0/should_i_or_shouldnt_i_buy_june_08/,[],,False,all_ads,6
+[],,,False,JCashell,,,[],,,,text,t2_4onb7,False,,,False,False,,False,,False,1560051755.0,1560022955.0,,,,self.malefashionadvice,0,False,0,{},False,False,bybqfw,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_bybqfw,False,3,0,,False,all_ads,/r/malefashionadvice/comments/bybqfw/how_to_buy_a_custom_suit/,False,,,6,False,,,False,5,,{},"I’m in the process of buying a custom suit from a tailor here in LA and I’m not thrilled with the results. It’s not the tailor’s fault though - I didn’t know what I wanted. I’m feeling a bit lost and need some guidance for when I buy my next suit. 
+
+How should one approach the process of designing a suit from scratch? 
+
+What’s the right way to find a good suit maker? 
+
+I’m a bigger guy - 6’0”, 270lbs, with most of my weight distributed towards my lower body and broad shoulders. What **design** choices should I make to flatter my body? ^not ^looking ^for ^weightloss ^advice ^thank ^you ^very ^much
+
+Are the online custom makers worth looking at? 
+
+Thanks and appreciate your insights.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;I’m in the process of buying a custom suit from a tailor here in LA and I’m not thrilled with the results. It’s not the tailor’s fault though - I didn’t know what I wanted. I’m feeling a bit lost and need some guidance for when I buy my next suit. &lt;/p&gt;
+
+&lt;p&gt;How should one approach the process of designing a suit from scratch? &lt;/p&gt;
+
+&lt;p&gt;What’s the right way to find a good suit maker? &lt;/p&gt;
+
+&lt;p&gt;I’m a bigger guy - 6’0”, 270lbs, with most of my weight distributed towards my lower body and broad shoulders. What &lt;strong&gt;design&lt;/strong&gt; choices should I make to flatter my body? &lt;sup&gt;not&lt;/sup&gt; &lt;sup&gt;looking&lt;/sup&gt; &lt;sup&gt;for&lt;/sup&gt; &lt;sup&gt;weightloss&lt;/sup&gt; &lt;sup&gt;advice&lt;/sup&gt; &lt;sup&gt;thank&lt;/sup&gt; &lt;sup&gt;you&lt;/sup&gt; &lt;sup&gt;very&lt;/sup&gt; &lt;sup&gt;much&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Are the online custom makers worth looking at? &lt;/p&gt;
+
+&lt;p&gt;Thanks and appreciate your insights.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,How to buy a custom suit?,0,5,https://www.reddit.com/r/malefashionadvice/comments/bybqfw/how_to_buy_a_custom_suit/,[],,False,all_ads,6
+[],,,False,THEBROTAKU,,,[],,,,text,t2_me61q,False,,,False,False,,False,,False,1560009881.0,1559981081.0,,,,self.malefashionadvice,0,False,0,{},False,False,by5pta,False,False,False,False,True,True,False,,#ed257f,question ,[],91ef86ae-b172-11e7-9a63-0e6c50199bd0,Question,light,text,False,,{},False,,,,[],t3_by5pta,False,29,0,,False,all_ads,/r/malefashionadvice/comments/by5pta/more_femme_mens_clothing/,False,,,6,False,,,False,33,,{},"So I'm pretty out there when it comes to fashion. I'll gladly wear a leopard print shirt or red corduroy pants to a party. I'm pretty confident that what I wear is fashionable.
+
+The thing is, I have really wanted to dress in a more feminine manner. I'm gay and naturally behave on the more femme side. But being closeted for so long has made me naturally put up a super manly persona. I'd like to peel that away slightly through fashion, but I'm scared to go all the way and look like a crossdresser (nothing wrong with it, but it's not what I'm going for).
+
+I've looked at getting heels as a start before but finding them in mens sizes is difficult and gets expensive quick.
+
+
+Do you guys have any ideas for some more feminine bits of clothing or ideas for outfits. I've been really attracted to this idea for a long time and I would love to dive into it.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;So I&amp;#39;m pretty out there when it comes to fashion. I&amp;#39;ll gladly wear a leopard print shirt or red corduroy pants to a party. I&amp;#39;m pretty confident that what I wear is fashionable.&lt;/p&gt;
+
+&lt;p&gt;The thing is, I have really wanted to dress in a more feminine manner. I&amp;#39;m gay and naturally behave on the more femme side. But being closeted for so long has made me naturally put up a super manly persona. I&amp;#39;d like to peel that away slightly through fashion, but I&amp;#39;m scared to go all the way and look like a crossdresser (nothing wrong with it, but it&amp;#39;s not what I&amp;#39;m going for).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve looked at getting heels as a start before but finding them in mens sizes is difficult and gets expensive quick.&lt;/p&gt;
+
+&lt;p&gt;Do you guys have any ideas for some more feminine bits of clothing or ideas for outfits. I&amp;#39;ve been really attracted to this idea for a long time and I would love to dive into it.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",True,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,More femme men's clothing?,0,33,https://www.reddit.com/r/malefashionadvice/comments/by5pta/more_femme_mens_clothing/,[],,False,all_ads,6
+[],,,False,AutoModerator,,,[],,🤖,dark,text,t2_6l4z3,False,,,False,False,,False,,False,1560038691.0,1560009891.0,,,moderator,self.malefashionadvice,0,False,0,{},False,False,by9gjd,False,False,False,False,True,True,False,,#228822,,[],81fcad9a-eb5a-11e7-8693-0e17e79c720e,Recurring,light,text,False,,{},False,,,,[],t3_by9gjd,True,7,0,,False,all_ads,/r/malefashionadvice/comments/by9gjd/hair_skincare_fragrance_and_fitness_thread_june_08/,False,,,6,False,,,False,5,,{},"This thread is for any and all questions and discussion regarding Personal Care, Grooming, and Fitness.
+
+ Related subreddits that might be helpful to check out include: /r/skincareaddiction, /r/malehairadvice, /r/wicked_edge, /r/malegrooming, /r/fragrance, and /r/fitness.","&lt;!-- SC_OFF --&gt;&lt;div class=""md""&gt;&lt;p&gt;This thread is for any and all questions and discussion regarding Personal Care, Grooming, and Fitness.&lt;/p&gt;
+
+&lt;p&gt;Related subreddits that might be helpful to check out include: &lt;a href=""/r/skincareaddiction""&gt;/r/skincareaddiction&lt;/a&gt;, &lt;a href=""/r/malehairadvice""&gt;/r/malehairadvice&lt;/a&gt;, &lt;a href=""/r/wicked_edge""&gt;/r/wicked_edge&lt;/a&gt;, &lt;a href=""/r/malegrooming""&gt;/r/malegrooming&lt;/a&gt;, &lt;a href=""/r/fragrance""&gt;/r/fragrance&lt;/a&gt;, and &lt;a href=""/r/fitness""&gt;/r/fitness&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- SC_ON --&gt;",False,False,False,malefashionadvice,t5_2r65t,r/malefashionadvice,2141164,public,,self,,,"Hair, Skincare, Fragrance, and Fitness Thread - June 08",0,5,https://www.reddit.com/r/malefashionadvice/comments/by9gjd/hair_skincare_fragrance_and_fitness_thread_june_08/,[],,False,all_ads,6
