@@ -12,7 +12,6 @@ class LemmaTokenizer(object):
         return [self.wnl.lemmatize(t) for t in word_tokenize(doc)]
 
 # function to parse text and spit out prediction based on 2 classes:
-#
 
 
 def classify_text(text, mdl):

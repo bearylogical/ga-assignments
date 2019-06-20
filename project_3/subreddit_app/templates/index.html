@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Subreddit Predictor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+    <script type=text/javascript>
+            $(function() {
+              $('a#process_input').bind('click', function() {
+                $.post('/', {
+                  reddit_text: $('textarea[name="reddit_text"]').val(),
+                }, function(data) {
+                  $('#result').text(data.result['class 1']);
+                });
+                return false;
+              });
+            });
+        </script>
+
 </head>
 <body>
-<form action="/result" method="POST">
-      <p> Insert reddit text here:  <input type="text" name="reddit_text" width= 300px></p>
-      <p><input type="submit" value="submit"></p>
+
+
+<form>
+    <p><h2 align='center'> Insert reddit text below:</h2> </p>
+    <p align="center"><textarea id="text_input" rows="10" cols="50" name=reddit_text></textarea></p>
+      <a href=# id=process_input ><button type="button" class="btn btn-primary">Submit</button></a>
+</form>
+        <p><h2 align='center'>Result:</h2><h2 id=result align='center'></h2></p>
+
 </body>
 </html>
