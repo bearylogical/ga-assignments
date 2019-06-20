@@ -16,12 +16,17 @@ def home():
         reddit_text = flask.request.form.get('reddit_text')
         if reddit_text:
             score = classify_text(reddit_text, mdl)
-            results = {'class 1': score[0, 1], 'class 0': score[0, 0]}
+            results = {'confessions': round(score[0, 1] *100 ,2), 'relationships': round(score[0, 0] *100, 2)}
             return flask.jsonify(result=results)
         else:
             return flask.jsonify(result='Input needed')
 
     return flask.render_template('index.html')
+
+
+@app.route("/get_subreddit_post", methods= ["GET"])
+def get_post():
+    pass
 
 
 # ----- MAIN SENTINEL -----#

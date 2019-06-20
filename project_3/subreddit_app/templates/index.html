@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <title>Subreddit Predictor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script
-			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
     <script type=text/javascript>
             $(function() {
               $('a#process_input').bind('click', function() {
                 $.post('/', {
                   reddit_text: $('textarea[name="reddit_text"]').val(),
                 }, function(data) {
-                  $('#result').text(data.result['class 1']);
+                  $('#confessions').text(data.result['confessions']);
+                  $('#relationships').text(data.result['relationships']);
                 });
                 return false;
               });
@@ -24,13 +23,39 @@
 </head>
 <body>
 
+<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1">ML-based Subreddit Predictor</span>
+</nav>
+    <main role="main" class="flex-shrink-0">
+  <div class="container">
+      <h1 class="mt-5">Guess the Subreddit!</h1>
+      <p class="lead">Copy and paste text from the subreddits r/confessions or r/relationships</p>
 
-<form>
-    <p><h2 align='center'> Insert reddit text below:</h2> </p>
-    <p align="center"><textarea id="text_input" rows="10" cols="50" name=reddit_text></textarea></p>
-      <a href=# id=process_input ><button type="button" class="btn btn-primary">Submit</button></a>
-</form>
-        <p><h2 align='center'>Result:</h2><h2 id=result align='center'></h2></p>
+        <div class="form-group">
+            <div class="mb-3">
+            <div class="was-validated">
+             <label for="text_input">Post Text:</label>
+                <textarea class="form-control is-invalid" id="text_input" placeholder="Enter text here" required name="reddit_text"></textarea>
+            </div>
+            </div>
+              <a href=# id=process_input ><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit</button></a>
+            </form>
+          </div>
+
+
+  </div>
+</main>
+<div class="container">
+
+
+    <div class="row">
+
+    </div>
+        <p><h2 align='center'>Result:</h2>
+            <h2 id=confessions align='center'></h2></p>
+            Likelihood from r/relationships<h2 id=relationships align='center'></h2></p>
+</div>
+
 
 </body>
 </html>
