@@ -1,7 +1,6 @@
 import flask
 from model import LemmaTokenizer, classify_text
 from joblib import load
-import numpy as np
 
 # ----- CONFIG -----#
 app = flask.Flask(__name__)  # initialise Flask app var
@@ -17,9 +16,11 @@ def home():
         if reddit_text:
             score = classify_text(reddit_text, mdl)
             results = {'confessions': round(score[0, 1] *100 ,2), 'relationships': round(score[0, 0] *100, 2)}
-            return flask.jsonify(result=results)
+            key, value = max(results.items(), key=lambda x: x[1])
+            res = 'Your text is likely to be from the r/' + str(key) + ' subreddit with a probability of ' + str(value) + '%'
+            return res
         else:
-            return flask.jsonify(result='Input needed')
+            return 'Input needed'
 
     return flask.render_template('index.html')
 

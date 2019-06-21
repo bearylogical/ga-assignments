@@ -5,20 +5,20 @@
     <title>Subreddit Predictor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type=text/javascript>
             $(function() {
               $('a#process_input').bind('click', function() {
                 $.post('/', {
                   reddit_text: $('textarea[name="reddit_text"]').val(),
                 }, function(data) {
-                  $('#confessions').text(data.result['confessions']);
-                  $('#relationships').text(data.result['relationships']);
+                  $('#results').text(data);
                 });
                 return false;
               });
             });
         </script>
+
 
 </head>
 <body>
@@ -38,8 +38,9 @@
                 <textarea class="form-control is-invalid" id="text_input" placeholder="Enter text here" required name="reddit_text"></textarea>
             </div>
             </div>
-              <a href=# id=process_input ><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit</button></a>
             </form>
+              <a href=# id=process_input ><button type="button" class="btn btn-primary" id ="submit">Submit</button></a>
+
           </div>
 
 
@@ -52,8 +53,7 @@
 
     </div>
         <p><h2 align='center'>Result:</h2>
-            <h2 id=confessions align='center'></h2></p>
-            Likelihood from r/relationships<h2 id=relationships align='center'></h2></p>
+    <p id=results align='center'></p>
 </div>
 
 
